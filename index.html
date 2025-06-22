@@ -60,7 +60,7 @@
             margin-top: 5px;
         }
         
-        /* Modified game frame to take half screen */
+        /* Game frame container */
         .game-frame-container {
             position: fixed;
             top: 0;
@@ -70,24 +70,29 @@
             background-color: rgba(0,0,0,0.8);
             z-index: 100;
             display: none;
-            padding: 20px;
+            padding: 60px 20px; /* Increased top/bottom padding */
             box-sizing: border-box;
         }
+        
+        /* Game frame - now 60% width and 60% height */
         .game-frame {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 50%;
-            height: 50%;
+            width: 60%;
+            height: 60%;
             border: none;
             background-color: white;
             border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
         }
+        
+        /* Close button */
         .close-frame {
             position: absolute;
-            top: 15px;
-            right: 15px;
+            top: 70px; /* Adjusted for larger ad space */
+            right: 30px;
             background-color: #333;
             color: white;
             border: none;
@@ -99,43 +104,51 @@
             z-index: 101;
         }
         
-        /* Ad spaces */
-        .ad-top, .ad-bottom, .ad-left, .ad-right {
+        /* Ad spaces - now with more height */
+        .ad-top, .ad-bottom {
             position: absolute;
+            left: 0;
+            width: 100%;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-weight: bold;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .ad-top {
+            top: 0;
+            height: 60px; /* Increased height */
+            border-bottom: 1px solid #ccc;
+        }
+        .ad-bottom {
+            bottom: 0;
+            height: 60px; /* Increased height */
+            border-top: 1px solid #ccc;
+        }
+        .ad-left, .ad-right {
+            position: absolute;
+            top: 60px; /* Matches ad-top height */
+            bottom: 60px; /* Matches ad-bottom height */
+            width: calc((100% - 60%) / 2 - 20px);
             background-color: #f0f0f0;
             display: flex;
             align-items: center;
             justify-content: center;
             color: #666;
             font-weight: bold;
-        }
-        .ad-top {
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 20px;
-            background-color: #e0e0e0;
-        }
-        .ad-bottom {
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 20px;
-            background-color: #e0e0e0;
+            margin: 0 10px;
+            border-radius: 4px;
         }
         .ad-left {
-            top: 20px;
             left: 0;
-            width: calc((100% - 50%) / 2 - 20px);
-            height: calc(100% - 40px);
-            margin: 0 10px;
+            border-right: 1px solid #ccc;
         }
         .ad-right {
-            top: 20px;
             right: 0;
-            width: calc((100% - 50%) / 2 - 20px);
-            height: calc(100% - 40px);
-            margin: 0 10px;
+            border-left: 1px solid #ccc;
         }
         
         .loading {
@@ -148,6 +161,20 @@
             color: #d32f2f;
             text-align: center;
             padding: 20px;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .game-frame {
+                width: 90%;
+                height: 60%;
+            }
+            .ad-left, .ad-right {
+                display: none; /* Hide side ads on mobile */
+            }
+            .ad-top, .ad-bottom {
+                height: 50px;
+            }
         }
     </style>
 </head>
@@ -162,11 +189,27 @@
     </div>
 
     <div id="game-frame-container" class="game-frame-container">
-        <div class="ad-top">Advertisement Top</div>
-        <div class="ad-left">Advertisement Left</div>
+        <div class="ad-top">
+            <div style="width: 728px; height: 90px; background: #ddd; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+                TOP BANNER AD (728x90)
+            </div>
+        </div>
+        <div class="ad-left">
+            <div style="width: 160px; height: 600px; background: #ddd; display: flex; align-items: center; justify-content: center;">
+                LEFT SIDEBAR AD (160x600)
+            </div>
+        </div>
         <iframe id="game-frame" class="game-frame" title="Game Frame"></iframe>
-        <div class="ad-right">Advertisement Right</div>
-        <div class="ad-bottom">Advertisement Bottom</div>
+        <div class="ad-right">
+            <div style="width: 160px; height: 600px; background: #ddd; display: flex; align-items: center; justify-content: center;">
+                RIGHT SIDEBAR AD (160x600)
+            </div>
+        </div>
+        <div class="ad-bottom">
+            <div style="width: 728px; height: 90px; background: #ddd; margin: 0 auto; display: flex; align-items: center; justify-content: center;">
+                BOTTOM BANNER AD (728x90)
+            </div>
+        </div>
         <button id="close-frame" class="close-frame" title="Close Game">×</button>
     </div>
 
@@ -180,7 +223,7 @@
             const closeFrameBtn = document.getElementById('close-frame');
             
             // Fetch games from the API
-            fetch('https://gamemonetize.com/feed.php?format=1&category=5&links=0&num=50&page=1')
+            fetch('https://gamemonetize.com/feed.php?format=1&category=5&links=0&num=150&page=1')
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
