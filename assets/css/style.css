@@ -101,3 +101,70 @@ main { flex-grow: 1; }
 .text-content h3 {
     margin-top: 30px;
 }
+
+
+/* ... add to the end of your existing CSS file ... */
+
+/* --- Game Overlay Ad Styles --- */
+.game-frame-container {
+    display: none; /* Keep this */
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Re-enable flex display when it becomes visible */
+.game-frame-container.active {
+    display: flex;
+}
+
+.overlay-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1300px; /* Accommodate game + ads */
+    margin: 0 auto;
+}
+
+.game-frame {
+    width: 960px; /* Standard game size */
+    height: 540px; /* 16:9 aspect ratio */
+    border: none;
+    background-color: #000;
+}
+
+.overlay-ad-left, .overlay-ad-right {
+    width: 160px; /* Standard skyscraper ad width */
+    height: 600px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-ad-top {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* --- Responsive adjustments for the ad overlay --- */
+@media (max-width: 1300px) {
+    .overlay-ad-left, .overlay-ad-right {
+        display: none; /* Hide side ads when space is limited */
+    }
+    .game-frame {
+        width: 90vw;
+        height: 50.625vw; /* Maintain 16:9 aspect ratio */
+    }
+}
+
+@media (max-width: 768px) {
+    .close-frame {
+        top: 5px;
+        right: 5px;
+    }
+}
