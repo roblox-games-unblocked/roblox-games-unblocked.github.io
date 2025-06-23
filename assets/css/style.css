@@ -45,7 +45,13 @@ main { flex-grow: 1; }
     border-top: 2px solid #007bff;
 }
 .dropdown-content a { padding: 12px 16px; }
-.dropdown:hover .dropdown-content { display: block; }
+
+/* --- MODIFIED: Desktop-only hover effect --- */
+@media (min-width: 993px) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
 
 /* Hamburger Menu for Mobile */
 .menu-toggle { display: none; cursor: pointer; background: none; border: none; font-size: 28px; }
@@ -92,7 +98,7 @@ main { flex-grow: 1; }
 }
 
 @media (max-width: 992px) {
-    /* --- MOBILE MENU FIXES --- */
+    /* --- MOBILE MENU STYLES --- */
     .main-nav {
         display: none;
         position: absolute;
@@ -101,7 +107,6 @@ main { flex-grow: 1; }
         width: 100%;
         background-color: #ffffff;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        /* FIX: Make menu scrollable if it's too long */
         max-height: calc(100vh - 60px);
         overflow-y: auto;
     }
@@ -109,27 +114,23 @@ main { flex-grow: 1; }
     .main-nav ul { flex-direction: column; width: 100%; }
     .main-nav li { width: 100%; text-align: center; border-bottom: 1px solid #f0f0f0; }
 
-    /* FIX: Hide submenus by default on mobile */
+    /* Hide submenus by default on mobile */
     .dropdown-content {
         position: static;
         background-color: #f8f9fa;
         box-shadow: none;
         border-radius: 0;
         border-top: none;
-        max-height: 0; /* Use max-height for smooth transition */
+        max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-out;
     }
     /* Show submenu when active */
     .dropdown-content.submenu-active {
-        max-height: 500px; /* A large enough value to show all items */
+        max-height: 500px;
         transition: max-height 0.4s ease-in;
     }
-    /* Remove hover effect on mobile */
-    .dropdown:hover .dropdown-content {
-        display: none;
-    }
-
+    
     .dropdown-content a { padding-left: 30px; }
     .menu-toggle { display: block; }
 }
