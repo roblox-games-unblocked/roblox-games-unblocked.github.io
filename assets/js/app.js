@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
             loadContent(event.state.path);
         } else {
             // Fallback for initial page or cases without state
-            const initialPath = window.location.pathname === '/' ? '/home.html' : window.location.pathname;
+            const initialPath = window.location.pathname === '/' ? 'home.html' : window.location.pathname;
             loadContent(initialPath);
         }
     });
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Initial Page Load (UPDATED LOGIC) ---
     const initialDisplayPath = window.location.pathname;
-    const initialContentPath = initialDisplayPath === '/' ? '/home.html' : initialDisplayPath;
+    const initialContentPath = initialDisplayPath === '/' ? 'home.html' : initialDisplayPath;
 
     // Set the initial history state. Store the path to the CONTENT file,
     // but display the clean URL in the browser bar.
