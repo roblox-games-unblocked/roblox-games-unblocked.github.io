@@ -23,7 +23,7 @@
     <!-- Link to Stylesheet -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
-    <!-- ADDED: Google Analytics Script -->
+    <!-- Google Analytics Script -->
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
@@ -34,7 +34,7 @@
     </script>
     
 
-    <!-- ADDED: AdSense Script -->
+    <!-- AdSense Script -->
     
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
         
@@ -44,36 +44,9 @@
         <a href="/" class="logo">Roblox Games Unblocked</a>
         <nav class="main-nav" id="main-nav">
              <ul>
-                
-                    
-                    <li><a href="/" class="">Home</a></li>
-                
-                    
-                    <li><a href="/category/soccer.html" class="">Soccer</a></li>
-                
-                    
-                    <li><a href="/category/arcade.html" class="">Arcade</a></li>
-                
-                    
-                    <li><a href="/category/puzzle.html" class="active">Puzzle</a></li>
-                
-
-                
-                <li class="dropdown">
-                    <a href="javascript:void(0)">More ▾</a>
-                    <div class="dropdown-content">
-                        
-                        <a href="/category/hypercasual.html" class="">Hypercasual</a>
-                        
-                        <a href="/category/racing.html" class="">Racing</a>
-                        
-                        <a href="/category/shooting.html" class="">Shooting</a>
-                        
-                        <a href="/category/stickman.html" class="">Stickman</a>
-                        
-                    </div>
-                </li>
-                
+                <li><a href="/" class="">Home</a></li><li><a href="/category/soccer.html" class="">Soccer</a></li><li><a href="/category/arcade.html" class="">Arcade</a></li><li><a href="/category/puzzle.html" class="active">Puzzle</a></li>
+                <li class="dropdown"><a href="javascript:void(0)">More ▾</a><div class="dropdown-content"><a href="/category/hypercasual.html" class="">Hypercasual</a><a href="/category/racing.html" class="">Racing</a><a href="/category/shooting.html" class="">Shooting</a><a href="/category/stickman.html" class="">Stickman</a></div></li>
+                <li class="dropdown"><a href="javascript:void(0)">Legal ▾</a><div class="dropdown-content"><a href="/privacy-policy.html" class="">Privacy Policy</a><a href="/terms-of-use.html" class="">Terms of Use</a><a href="/about.html" class="">About Me</a></div></li>
             </ul>
         </nav>
         <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
@@ -86,42 +59,66 @@
             </div>
         </div>
         
-        <!-- MODIFIED: Game Overlay with Ad Slots -->
+        <!-- Correct Game Overlay with Ad Slots -->
         <div id="game-frame-container" class="game-frame-container">
-            <button id="close-frame" class="close-frame" title="Close Game">×</button>
             <div class="overlay-ad-top">
-                <div style="width: 728px; height: 90px; background: #ddd; display:flex; align-items:center; justify-content:center;">TOP AD (728x90)</div>
+                <!-- REPLACE WITH YOUR 728x90 AD UNIT CODE -->
+                <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="YOUR_TOP_AD_SLOT_ID"></ins>
             </div>
             <div class="overlay-content-wrapper">
                 <div class="overlay-ad-left">
-                    <div style="width: 160px; height: 600px; background: #ddd; display:flex; align-items:center; justify-content:center;">LEFT AD (160x600)</div>
+                    <!-- REPLACE WITH YOUR 160x600 AD UNIT CODE -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="YOUR_SIDE_AD_SLOT_ID"></ins>
                 </div>
                 <iframe id="game-frame" class="game-frame" title="Game Frame" allowfullscreen></iframe>
                 <div class="overlay-ad-right">
-                    <div style="width: 160px; height: 600px; background: #ddd; display:flex; align-items:center; justify-content:center;">RIGHT AD (160x600)</div>
+                    <!-- USE THE SAME 160x600 AD UNIT CODE HERE -->
+                    <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" data-ad-slot="YOUR_SIDE_AD_SLOT_ID"></ins>
                 </div>
             </div>
+             <button id="close-frame" class="close-frame" title="Close Game">×</button>
         </div>
     </main>
 
     <footer class="main-footer">
-        <p>© 2025 Roblox Games Unblocked. All rights reserved. | <a href="/legal.html">Legal Information</a></p>
+        <div class="footer-content">
+            <p>© 2025 Roblox Games Unblocked. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-use.html">Terms of Use</a> | <a href="/about.html">About Me</a>
+            </div>
+        </div>
     </footer>
 
-    <!-- Embedded JavaScript for this page -->
+    <!-- Corrected Embedded JavaScript -->
     <script>
-        // Mobile menu toggle
-        document.getElementById('menu-toggle').addEventListener('click', function() {
-            document.getElementById('main-nav').classList.toggle('active');
-        });
-
-        // Game fetching and display logic
+        document.getElementById('menu-toggle').addEventListener('click', function() { document.getElementById('main-nav').classList.toggle('active'); });
         (function() {
             const baseUrl = 'https://gamemonetize.com/feed.php?format=1&links=0&num=50&page=1';
             const categoryId = '3';
             const apiUrl = categoryId ? `${baseUrl}&category=${categoryId}` : 'https://gamemonetize.com/feed.php?format=0&num=50&page=1';
+            const gamesContainer = document.getElementById('games-container');
+            const gameFrameContainer = document.getElementById('game-frame-container');
+            const gameFrame = document.getElementById('game-frame');
+            const closeFrameBtn = document.getElementById('close-frame');
+            fetch(apiUrl).then(r=>r.text()).then(str=>{let p=new DOMParser();let xml=p.parseFromString(str,"text/xml");let items=xml.getElementsByTagName('item');if(items.length===0)throw new Error('No games found.');let h='';for(let i of items){h+=`<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`;}gamesContainer.innerHTML=h;}).catch(e=>{console.error(e);gamesContainer.innerHTML=`<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`;});
             
-            const gamesContainer=document.getElementById('games-container');const gameFrameContainer=document.getElementById('game-frame-container');const gameFrame=document.getElementById('game-frame');const closeFrameBtn=document.getElementById('close-frame');fetch(apiUrl).then(r=>r.text()).then(str=>{let p=new DOMParser();let xml=p.parseFromString(str,"text/xml");let items=xml.getElementsByTagName('item');if(items.length===0)throw new Error('No games found.');let h='';for(let i of items){h+=`<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`;}gamesContainer.innerHTML=h;}).catch(e=>{console.error(e);gamesContainer.innerHTML=`<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`;});gamesContainer.addEventListener('click',e=>{let c=e.target.closest('.game-card');if(c){gameFrame.src=c.dataset.url;gameFrameContainer.style.display='block';document.body.style.overflow='hidden';}});closeFrameBtn.addEventListener('click',()=>{gameFrame.src='about:blank';gameFrameContainer.style.display='none';document.body.style.overflow='auto';});
+            gamesContainer.addEventListener('click', e => {
+                let c = e.target.closest('.game-card');
+                if (c) {
+                    gameFrame.src = c.dataset.url;
+                    gameFrameContainer.classList.add('active'); 
+                    document.body.style.overflow = 'hidden';
+                    (document.querySelectorAll('.adsbygoogle') || []).forEach(() => {
+                        try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (err) { console.error(err); }
+                    });
+                }
+            });
+
+            closeFrameBtn.addEventListener('click', () => {
+                gameFrame.src = 'about:blank';
+                gameFrameContainer.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
         })();
     </script>
 </body>
