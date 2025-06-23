@@ -39,7 +39,7 @@ main { flex-grow: 1; }
     background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-    z-index: 1001; /* Ensure it's above other header elements */
+    z-index: 1001;
     border-radius: 4px;
     overflow: hidden;
     border-top: 2px solid #007bff;
@@ -50,25 +50,13 @@ main { flex-grow: 1; }
 /* Hamburger Menu for Mobile */
 .menu-toggle { display: none; cursor: pointer; background: none; border: none; font-size: 28px; }
 
-/* Footer Styles */
+/* Footer Styles & Content Styles (Unchanged) */
 .main-footer { background-color: #333; color: white; text-align: center; padding: 20px; flex-shrink: 0; }
 .main-footer a { color: #aedffc; text-decoration: none; }
 .main-footer a:hover { text-decoration: underline; }
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
+.footer-content { display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1200px; margin: 0 auto; flex-wrap: wrap; }
 .footer-links { font-size: 12px; text-align: right; }
 .footer-links a { margin: 0 5px; }
-
-
-/* --- CONTENT STYLES --- */
 .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
 .games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
 .game-card { background-color: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; }
@@ -79,168 +67,76 @@ main { flex-grow: 1; }
 .game-category { font-size: 14px; color: #666; margin-top: 5px; }
 .loading { text-align: center; padding: 50px; font-size: 22px; color: #666; font-weight: bold; }
 .error { color: #d32f2f; text-align: center; padding: 50px; font-size: 18px; font-weight: bold; }
-
-/* Styling for legal/text pages */
 .text-content { background-color: #fff; padding: 20px 40px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); line-height: 1.6; }
 .text-content h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; margin-top: 0; }
 .text-content h3 { margin-top: 30px; }
-
-/* Styling for homepage hero section */
 .hero-section { text-align: center; padding: 40px 20px; }
 .hero-section h1 { font-size: 2.5rem; margin-bottom: 10px; }
 .hero-section .subtitle { font-size: 1.2rem; color: #666; }
 .section-title { text-align: center; font-size: 2rem; margin-top: 40px; }
 
-
-/* --- GAME OVERLAY WITH ADS --- */
-.game-frame-container {
-    /* This is the full-screen black overlay background */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.85);
-    z-index: 2000;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    /* Hide the overlay by default */
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s, visibility 0.2s;
-}
-
-/* When active, the overlay becomes visible */
-.game-frame-container.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.close-frame {
-    /* The 'X' button sits on top of everything */
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    background-color: #333;
-    color: white;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-    z-index: 2002; /* Highest z-index */
-}
-
-.overlay-content-wrapper {
-    /* This wrapper holds the ads and the game iframe */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    z-index: 2001; /* Higher than the background, lower than the close button */
-    width: 100%;
-    max-width: 1300px;
-}
-
-.game-frame {
-    /* The actual game iframe */
-    width: 960px;
-    height: 540px; /* 16:9 aspect ratio */
-    border: none;
-    background-color: #000;
-}
-
-.overlay-ad-left, .overlay-ad-right {
-    width: 160px; /* Standard skyscraper ad width */
-    height: 600px;
-    margin: 0 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.overlay-ad-top {
-    /* This ad sits above the main content wrapper */
-    position: absolute;
-    top: 20px;
-    z-index: 2001; /* Same level as the content wrapper */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
+/* Game Overlay Ad Styles (Unchanged) */
+.game-frame-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); z-index: 2000; padding: 20px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: center; align-items: center; opacity: 0; visibility: hidden; transition: opacity 0.2s, visibility 0.2s; }
+.game-frame-container.active { opacity: 1; visibility: visible; }
+.close-frame { position: absolute; top: 15px; right: 15px; background-color: #333; color: white; border: 2px solid white; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer; z-index: 2002; }
+.overlay-content-wrapper { display: flex; align-items: center; justify-content: center; position: relative; z-index: 2001; width: 100%; max-width: 1300px; }
+.game-frame { width: 960px; height: 540px; border: none; background-color: #000; }
+.overlay-ad-left, .overlay-ad-right { width: 160px; height: 600px; margin: 0 15px; display: flex; align-items: center; justify-content: center; }
+.overlay-ad-top { position: absolute; top: 20px; z-index: 2001; display: flex; justify-content: center; width: 100%; }
 
 
 /* --- RESPONSIVE STYLES --- */
 @media (max-width: 1300px) {
-    /* Hide side ads on the overlay when screen is too narrow */
-    .overlay-ad-left, .overlay-ad-right {
-        display: none;
-    }
-    .game-frame {
-        width: 90vw;
-        height: 50.625vw; /* Maintain 16:9 aspect ratio */
-    }
+    .overlay-ad-left, .overlay-ad-right { display: none; }
+    .game-frame { width: 90vw; height: 50.625vw; }
 }
 
 @media (max-width: 992px) {
-    /* Main navigation hamburger menu logic */
+    /* --- MOBILE MENU FIXES --- */
     .main-nav {
         display: none;
         position: absolute;
-        top: 60px;
+        top: 60px; /* Header height */
         left: 0;
         width: 100%;
         background-color: #ffffff;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        /* FIX: Make menu scrollable if it's too long */
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
     }
-    .main-nav.active {
-        display: block;
-    }
-    .main-nav ul {
-        flex-direction: column;
-        width: 100%;
-    }
-    .main-nav li {
-        width: 100%;
-        text-align: center;
-        border-bottom: 1px solid #f0f0f0;
-    }
+    .main-nav.active { display: block; }
+    .main-nav ul { flex-direction: column; width: 100%; }
+    .main-nav li { width: 100%; text-align: center; border-bottom: 1px solid #f0f0f0; }
+
+    /* FIX: Hide submenus by default on mobile */
     .dropdown-content {
         position: static;
-        display: block;
         background-color: #f8f9fa;
         box-shadow: none;
         border-radius: 0;
         border-top: none;
+        max-height: 0; /* Use max-height for smooth transition */
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
     }
-    .dropdown-content a {
-        padding-left: 30px;
+    /* Show submenu when active */
+    .dropdown-content.submenu-active {
+        max-height: 500px; /* A large enough value to show all items */
+        transition: max-height 0.4s ease-in;
     }
-    .menu-toggle {
-        display: block;
+    /* Remove hover effect on mobile */
+    .dropdown:hover .dropdown-content {
+        display: none;
     }
+
+    .dropdown-content a { padding-left: 30px; }
+    .menu-toggle { display: block; }
 }
 
 @media (max-width: 768px) {
-    /* Hide top ad on small screens */
-    .overlay-ad-top {
-        display: none;
-    }
-    .close-frame {
-        top: 5px;
-        right: 5px;
-    }
-    .footer-content {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .footer-links {
-        text-align: center;
-    }
+    .overlay-ad-top { display: none; }
+    .close-frame { top: 5px; right: 5px; }
+    .footer-content { flex-direction: column; gap: 10px; }
+    .footer-links { text-align: center; }
 }

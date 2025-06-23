@@ -101,7 +101,34 @@
 
     <!-- Corrected Embedded JavaScript -->
     <script>
-        document.getElementById('menu-toggle').addEventListener('click', function() { document.getElementById('main-nav').classList.toggle('active'); });
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+
+        // --- NEW: SCRIPT FOR MOBILE SUBMENU TOGGLE ---
+        document.querySelectorAll('.main-nav .dropdown > a').forEach(function(toggle) {
+            toggle.addEventListener('click', function(e) {
+                // Check if we are in mobile view (hamburger menu is visible)
+                if (window.getComputedStyle(document.getElementById('menu-toggle')).display !== 'none') {
+                    e.preventDefault(); // Prevent link from being followed
+                    
+                    let submenu = this.nextElementSibling; // The .dropdown-content
+                    
+                    // If this submenu is already open, just close it
+                    if (submenu.classList.contains('submenu-active')) {
+                        submenu.classList.remove('submenu-active');
+                    } else {
+                        // Close any other open submenus first
+                        document.querySelectorAll('.main-nav .submenu-active').forEach(function(openSubmenu) {
+                            openSubmenu.classList.remove('submenu-active');
+                        });
+                        // Open the clicked submenu
+                        submenu.classList.add('submenu-active');
+                    }
+                }
+            });
+        });
         (function() {
             const baseUrl = 'https://gamemonetize.com/feed.php?format=1&links=0&num=50&page=1';
             const categoryId = '2';
