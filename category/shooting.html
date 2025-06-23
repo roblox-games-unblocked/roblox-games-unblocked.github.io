@@ -85,9 +85,22 @@
                 <div class="loading">Loading Games...</div>
             </div>
         </div>
+        
+        <!-- MODIFIED: Game Overlay with Ad Slots -->
         <div id="game-frame-container" class="game-frame-container">
-            <iframe id="game-frame" class="game-frame" title="Game Frame" allowfullscreen></iframe>
             <button id="close-frame" class="close-frame" title="Close Game">×</button>
+            <div class="overlay-ad-top">
+                <div style="width: 728px; height: 90px; background: #ddd; display:flex; align-items:center; justify-content:center;">TOP AD (728x90)</div>
+            </div>
+            <div class="overlay-content-wrapper">
+                <div class="overlay-ad-left">
+                    <div style="width: 160px; height: 600px; background: #ddd; display:flex; align-items:center; justify-content:center;">LEFT AD (160x600)</div>
+                </div>
+                <iframe id="game-frame" class="game-frame" title="Game Frame" allowfullscreen></iframe>
+                <div class="overlay-ad-right">
+                    <div style="width: 160px; height: 600px; background: #ddd; display:flex; align-items:center; justify-content:center;">RIGHT AD (160x600)</div>
+                </div>
+            </div>
         </div>
     </main>
 
