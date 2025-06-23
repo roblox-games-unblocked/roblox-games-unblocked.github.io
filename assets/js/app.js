@@ -8,7 +8,32 @@ document.addEventListener('DOMContentLoaded', () => {
         mainNav.classList.toggle('active');
     });
 
-    // --- Core Content Loading Function (Unchanged) ---
+    // --- NEW: Function to update <head> tags ---
+    const updateMeta = (newContent) => {
+        // Clear old dynamic tags
+        document.querySelectorAll('[data-seo-dynamic]').forEach(tag => tag.remove());
+
+        const template = newContent.querySelector('template#page-metadata');
+        if (!template) return;
+
+        const newHeadContent = template.content;
+
+        // Update title
+        const newTitle = newHeadContent.querySelector('title');
+        if (newTitle) {
+            document.title = newTitle.textContent;
+        }
+
+        // Add new meta and link tags
+        const tags = newHeadContent.querySelectorAll('meta, link');
+        tags.forEach(tag => {
+            const newTag = tag.cloneNode(true);
+            newTag.setAttribute('data-seo-dynamic', ''); // Mark as dynamic
+            document.head.appendChild(newTag);
+        });
+    };
+
+    // --- UPDATED: Core Content Loading Function ---
     const loadContent = async (url) => {
         contentContainer.innerHTML = '<div class="loading">Loading...</div>';
         try {
@@ -16,8 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) throw new Error(`Page not found: ${response.status}`);
             const contentHTML = await response.text();
             contentContainer.innerHTML = contentHTML;
-            const contentRoot = contentContainer.querySelector('[data-title]');
-            document.title = contentRoot ? contentRoot.dataset.title : 'Game Portal';
+
+            // NEW: Call the function to update the head
+            updateMeta(contentContainer);
+
+            // Execute the script from the loaded content
             const newScript = contentContainer.querySelector('script');
             if (newScript) {
                 const script = document.createElement('script');
@@ -31,59 +59,44 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // --- Intercept Link Clicks (UPDATED LOGIC) ---
+    // --- Intercept Link Clicks (Unchanged Logic from your provided file) ---
     document.body.addEventListener('click', (event) => {
         const link = event.target.closest('a');
         if (link && link.hostname === window.location.hostname) {
             event.preventDefault();
-
-            // The URL to show in the browser bar comes from href
             const displayPath = link.getAttribute('href');
-            // The file to fetch comes from data-content-src, or falls back to href
             const contentPath = link.dataset.contentSrc || displayPath;
-
             if (window.location.pathname !== displayPath) {
-                // Push the CONTENT path to state, but the DISPLAY path to the URL bar
                 history.pushState({ path: contentPath }, '', displayPath);
                 loadContent(contentPath);
             }
-
             if (mainNav.classList.contains('active')) {
                 mainNav.classList.remove('active');
             }
         }
     });
 
-    // --- Handle Browser Back/Forward Buttons (UPDATED LOGIC) ---
+    // --- Handle Browser Back/Forward Buttons (Unchanged Logic) ---
     window.addEventListener('popstate', (event) => {
-        // When user navigates, the state object gives us the path to the content file
         if (event.state && event.state.path) {
             loadContent(event.state.path);
         } else {
-            // Fallback for initial page or cases without state
             const initialPath = window.location.pathname === '/' ? 'home.html' : window.location.pathname;
             loadContent(initialPath);
         }
     });
 
-    // --- Highlight Active Menu Link (UPDATED LOGIC) ---
+    // --- Highlight Active Menu Link (Unchanged Logic) ---
     const updateActiveLink = (contentPath) => {
         document.querySelectorAll('.main-nav a').forEach(a => {
             const linkContentPath = a.dataset.contentSrc || a.getAttribute('href');
-            if (linkContentPath === contentPath) {
-                a.classList.add('active');
-            } else {
-                a.classList.remove('active');
-            }
+            a.classList.toggle('active', linkContentPath === contentPath);
         });
     };
 
-    // --- Initial Page Load (UPDATED LOGIC) ---
+    // --- Initial Page Load (Unchanged Logic) ---
     const initialDisplayPath = window.location.pathname;
     const initialContentPath = initialDisplayPath === '/' ? 'home.html' : initialDisplayPath;
-
-    // Set the initial history state. Store the path to the CONTENT file,
-    // but display the clean URL in the browser bar.
     history.replaceState({ path: initialContentPath }, '', initialDisplayPath);
     loadContent(initialContentPath);
 });
