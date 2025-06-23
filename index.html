@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- The title will be updated dynamically by app.js -->
     <title>Game Portal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <!-- ================== HEADER (STATIC) ================== -->
     <header class="main-header">
-        <a href="/home.html" class="logo">GamePortal</a>
+        <!-- MODIFIED: The logo link now points to "/" -->
+        <a href="/" class="logo" data-content-src="/home.html">GamePortal</a>
         <nav class="main-nav" id="main-nav">
              <ul>
-                <!-- These links point to the actual content files -->
-                <li><a href="/home.html">Home</a></li>
+                <!-- MODIFIED: The Home link now has a clean href="/" and a data-content-src attribute -->
+                <li><a href="/" data-content-src="/home.html">Home</a></li>
                 <li><a href="/category/soccer.html">Soccer</a></li>
                 <li><a href="/category/arcade.html">Arcade</a></li>
                 <li><a href="/category/hypercasual.html">Hypercasual</a></li>
@@ -34,17 +33,12 @@
         </button>
     </header>
 
-    <!-- ================== DYNAMIC CONTENT AREA ================== -->
-    <main id="content-container">
-        <!-- Content from home.html, soccer.html, etc. will be loaded here -->
-    </main>
+    <main id="content-container"></main>
 
-    <!-- ================== FOOTER (STATIC) ================== -->
     <footer class="main-footer">
         <p>© 2024 GamePortal. All rights reserved. | <a href="/legal.html">Legal Information</a></p>
     </footer>
 
-    <!-- Main application script that powers the navigation -->
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/js/app.js"></script>
 </body>
 </html>
