@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Page-specific SEO and Metadata -->
-    <title>Game Portal - Play Thousands of Free Online Games</title>
-    <meta name="description" content="Discover and play thousands of free online games in every category, from arcade and puzzle to soccer and racing. New games added daily!">
+    <title>Stickman Games - Epic Stick Figure Adventures</title>
+    <meta name="description" content="Jump into the world of stick figures with our collection of stickman games, featuring action, adventure, and fighting.">
     
-    <link rel="canonical" href="https://www.yourwebsite.com/">
+    <link rel="canonical" href="https://www.yourwebsite.com/category/stickman.html">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.yourwebsite.com/">
-    <meta property="og:title" content="Game Portal - Play Thousands of Free Online Games">
-    <meta property="og:description" content="Discover and play thousands of free online games in every category, from arcade and puzzle to soccer and racing. New games added daily!">
+    <meta property="og:url" content="https://www.yourwebsite.com/category/stickman.html">
+    <meta property="og:title" content="Stickman Games - Epic Stick Figure Adventures">
+    <meta property="og:description" content="Jump into the world of stick figures with our collection of stickman games, featuring action, adventure, and fighting.">
     <meta property="og:image" content="https://www.yourwebsite.com/assets/images/social-preview.jpg">
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.yourwebsite.com/">
-    <meta property="twitter:title" content="Game Portal - Play Thousands of Free Online Games">
-    <meta property="twitter:description" content="Discover and play thousands of free online games in every category, from arcade and puzzle to soccer and racing. New games added daily!">
+    <meta property="twitter:url" content="https://www.yourwebsite.com/category/stickman.html">
+    <meta property="twitter:title" content="Stickman Games - Epic Stick Figure Adventures">
+    <meta property="twitter:description" content="Jump into the world of stick figures with our collection of stickman games, featuring action, adventure, and fighting.">
     <meta property="twitter:image" content="https://www.yourwebsite.com/assets/images/social-preview.jpg">
 
     <!-- Link to Stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
     <header class="main-header">
@@ -30,7 +30,7 @@
              <ul>
                 
                     
-                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/" class="">Home</a></li>
                 
                     
                     <li><a href="/category/soccer.html" class="">Soccer</a></li>
@@ -54,7 +54,7 @@
                         
                         <a href="/category/shooting.html" class="">Shooting</a>
                         
-                        <a href="/category/stickman.html" class="">Stickman</a>
+                        <a href="/category/stickman.html" class="active">Stickman</a>
                         
                     </div>
                 </li>
@@ -90,7 +90,7 @@
         // Game fetching and display logic
         (function() {
             const baseUrl = 'https://gamemonetize.com/feed.php?format=1&links=0&num=50&page=1';
-            const categoryId = '16';
+            const categoryId = '12';
             const apiUrl = categoryId ? `${baseUrl}&category=${categoryId}` : 'https://gamemonetize.com/feed.php?format=0&num=50&page=1';
             
             const gamesContainer=document.getElementById('games-container');const gameFrameContainer=document.getElementById('game-frame-container');const gameFrame=document.getElementById('game-frame');const closeFrameBtn=document.getElementById('close-frame');fetch(apiUrl).then(r=>r.text()).then(str=>{let p=new DOMParser();let xml=p.parseFromString(str,"text/xml");let items=xml.getElementsByTagName('item');if(items.length===0)throw new Error('No games found.');let h='';for(let i of items){h+=`<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`;}gamesContainer.innerHTML=h;}).catch(e=>{console.error(e);gamesContainer.innerHTML=`<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`;});gamesContainer.addEventListener('click',e=>{let c=e.target.closest('.game-card');if(c){gameFrame.src=c.dataset.url;gameFrameContainer.style.display='block';document.body.style.overflow='hidden';}});closeFrameBtn.addEventListener('click',()=>{gameFrame.src='about:blank';gameFrameContainer.style.display='none';document.body.style.overflow='auto';});

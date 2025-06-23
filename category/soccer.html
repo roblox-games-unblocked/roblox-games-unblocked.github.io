@@ -1,39 +1,100 @@
-<!-- SEO METADATA TEMPLATE -->
-<template id="page-metadata">
-    <title>Soccer Games - Play Free Online Soccer & Football Games</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Page-specific SEO and Metadata -->
+    <title>Soccer Games - Play Free Online Soccer &amp; Football Games</title>
     <meta name="description" content="Score the winning goal! Play the best free online soccer games, from penalty shootouts to full-team management simulators.">
+    
     <link rel="canonical" href="https://www.yourwebsite.com/category/soccer.html">
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.yourwebsite.com/category/soccer.html">
-    <meta property="og:title" content="Soccer Games - Play Free Online Soccer & Football Games">
-    <meta property="og:description" content="Score the winning goal! Play the best free online soccer games.">
-    <meta property="og:image" content="https://www.yourwebsite.com/assets/images/soccer-preview.jpg"> <!-- Create a category-specific preview image -->
-    <!-- Twitter -->
+    <meta property="og:title" content="Soccer Games - Play Free Online Soccer &amp; Football Games">
+    <meta property="og:description" content="Score the winning goal! Play the best free online soccer games, from penalty shootouts to full-team management simulators.">
+    <meta property="og:image" content="https://www.yourwebsite.com/assets/images/social-preview.jpg">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.yourwebsite.com/category/soccer.html">
-    <meta property="twitter:title" content="Soccer Games - Play Free Online Soccer & Football Games">
-    <meta property="twitter:description" content="Score the winning goal! Play the best free online soccer games.">
-    <meta property="twitter:image" content="https://www.yourwebsite.com/assets/images/soccer-preview.jpg">
-</template>
+    <meta property="twitter:title" content="Soccer Games - Play Free Online Soccer &amp; Football Games">
+    <meta property="twitter:description" content="Score the winning goal! Play the best free online soccer games, from penalty shootouts to full-team management simulators.">
+    <meta property="twitter:image" content="https://www.yourwebsite.com/assets/images/social-preview.jpg">
 
-<!-- PAGE CONTENT -->
-<div class="container">
-    <div id="games-container" class="games-grid"></div>
-</div>
-<div id="game-frame-container" class="game-frame-container">
-    <iframe id="game-frame" class="game-frame" title="Game Frame" allowfullscreen></iframe>
-    <button id="close-frame" class="close-frame" title="Close Game">×</button>
-</div>
-<script>
-    (function() {
-        const apiUrl = 'https://gamemonetize.com/feed.php?format=1&links=0&num=50&page=1&category=16';
-        const gamesContainer = document.getElementById('games-container');
-        const gameFrameContainer = document.getElementById('game-frame-container');
-        const gameFrame = document.getElementById('game-frame');
-        const closeFrameBtn = document.getElementById('close-frame');
-        fetch(apiUrl).then(r=>r.text()).then(str=>{let p=new DOMParser();let xml=p.parseFromString(str,"text/xml");let items=xml.getElementsByTagName('item');if(items.length===0)throw new Error('No games found.');let h='';for(let i of items){h+=`<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`;}gamesContainer.innerHTML=h;}).catch(e=>{console.error(e);gamesContainer.innerHTML=`<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`;});
-        gamesContainer.addEventListener('click',e=>{let c=e.target.closest('.game-card');if(c){gameFrame.src=c.dataset.url;gameFrameContainer.style.display='block';document.body.style.overflow='hidden';}});
-        closeFrameBtn.addEventListener('click',()=>{gameFrame.src='about:blank';gameFrameContainer.style.display='none';document.body.style.overflow='auto';});
-    })();
-</script>
+    <!-- Link to Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <a href="/" class="logo">GamePortal</a>
+        <nav class="main-nav" id="main-nav">
+             <ul>
+                
+                    
+                    <li><a href="/" class="">Home</a></li>
+                
+                    
+                    <li><a href="category/soccer.html" class="active">Soccer</a></li>
+                
+                    
+                    <li><a href="category/arcade.html" class="">Arcade</a></li>
+                
+                    
+                    <li><a href="category/hypercasual.html" class="">Hypercasual</a></li>
+                
+                    
+                    <li><a href="category/puzzle.html" class="">Puzzle</a></li>
+                
+
+                
+                <li class="dropdown">
+                    <a href="javascript:void(0)">More ▾</a>
+                    <div class="dropdown-content">
+                        
+                        <a href="/category/racing.html" class="">Racing</a>
+                        
+                        <a href="/category/shooting.html" class="">Shooting</a>
+                        
+                        <a href="/category/stickman.html" class="">Stickman</a>
+                        
+                    </div>
+                </li>
+                
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main id="content-container">
+        <div class="container">
+            <div id="games-container" class="games-grid">
+                <div class="loading">Loading Games...</div>
+            </div>
+        </div>
+        <div id="game-frame-container" class="game-frame-container">
+            <iframe id="game-frame" class="game-frame" title="Game Frame" allowfullscreen></iframe>
+            <button id="close-frame" class="close-frame" title="Close Game">×</button>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>© 2025 GamePortal. All rights reserved. | <a href="/legal.html">Legal Information</a></p>
+    </footer>
+
+    <!-- Embedded JavaScript for this page -->
+    <script>
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('main-nav').classList.toggle('active');
+        });
+
+        // Game fetching and display logic
+        (function() {
+            const baseUrl = 'https://gamemonetize.com/feed.php?format=1&links=0&num=50&page=1';
+            const categoryId = '16';
+            const apiUrl = categoryId ? `${baseUrl}&category=${categoryId}` : 'https://gamemonetize.com/feed.php?format=0&num=50&page=1';
+            
+            const gamesContainer=document.getElementById('games-container');const gameFrameContainer=document.getElementById('game-frame-container');const gameFrame=document.getElementById('game-frame');const closeFrameBtn=document.getElementById('close-frame');fetch(apiUrl).then(r=>r.text()).then(str=>{let p=new DOMParser();let xml=p.parseFromString(str,"text/xml");let items=xml.getElementsByTagName('item');if(items.length===0)throw new Error('No games found.');let h='';for(let i of items){h+=`<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`;}gamesContainer.innerHTML=h;}).catch(e=>{console.error(e);gamesContainer.innerHTML=`<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`;});gamesContainer.addEventListener('click',e=>{let c=e.target.closest('.game-card');if(c){gameFrame.src=c.dataset.url;gameFrameContainer.style.display='block';document.body.style.overflow='hidden';}});closeFrameBtn.addEventListener('click',()=>{gameFrame.src='about:blank';gameFrameContainer.style.display='none';document.body.style.overflow='auto';});
+        })();
+    </script>
+</body>
+</html>
