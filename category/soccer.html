@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Head and Style content is identical for all category pages -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Feed</title> <!-- You could dynamically change this title with JS if needed -->
+    <style>
+        /* All CSS from your original file remains unchanged here */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .game-card { background-color: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; }
+        .game-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .game-thumbnail { width: 100%; height: 150px; object-fit: cover; }
+        .game-info { padding: 15px; }
+        .game-title { margin: 0; font-size: 16px; color: #333; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .game-category { font-size: 14px; color: #666; margin-top: 5px; }
+        .game-frame-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.8); z-index: 100; display: none; padding: 60px 20px; box-sizing: border-box; }
+        .game-frame { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60%; height: 60%; border: none; background-color: white; border-radius: 8px; box-shadow: 0 0 20px rgba(0,0,0,0.5); }
+        .close-frame { position: absolute; top: 70px; right: 10px; background-color: #333; color: white; border: none; border-radius: 50%; width: 40px; height: 40px; font-size: 20px; cursor: pointer; z-index: 101; }
+        .ad-top, .ad-bottom { position: absolute; left: 0; width: 100%; background-color: #e0e0e0; display: flex; align-items: center; justify-content: center; color: #666; font-weight: bold; padding: 15px; box-sizing: border-box; }
+        .ad-top { top: 0; height: 60px; border-bottom: 1px solid #ccc; }
+        .ad-bottom { bottom: 0; height: 60px; border-top: 1px solid #ccc; }
+        .ad-left, .ad-right { position: absolute; top: 60px; bottom: 60px; width: calc((100% - 60%) / 2 - 20px); background-color: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #666; font-weight: bold; margin: 0 10px; border-radius: 4px; }
+        .ad-left { left: 0; border-right: 1px solid #ccc; }
+        .ad-right { right: 0; border-left: 1px solid #ccc; }
+        .loading { text-align: center; padding: 20px; font-size: 18px; color: #666; }
+        .error { color: #d32f2f; text-align: center; padding: 20px; }
+        @media (max-width: 768px) { .game-frame { width: 90%; height: 60%; } .ad-left, .ad-right { display: none; } .ad-top, .ad-bottom { height: 50px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="games-container" class="games-grid"></div>
+        <div id="loading" class="loading">Loading games...</div>
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+    <div id="game-frame-container" class="game-frame-container">
+        <!-- Ad and game frame structure is the same -->
+        <div class="ad-top"><div style="width: 728px; height: 90px; background: #ddd; margin: 0 auto; display: flex; align-items: center; justify-content: center;">TOP BANNER AD (728x90)</div></div>
+        <div class="ad-left"><div style="width: 160px; height: 600px; background: #ddd; display: flex; align-items: center; justify-content: center;">LEFT SIDEBAR AD (160x600)</div></div>
+        <iframe id="game-frame" class="game-frame" title="Game Frame"></iframe>
+        <div class="ad-right"><div style="width: 160px; height: 600px; background: #ddd; display: flex; align-items: center; justify-content: center;">RIGHT SIDEBAR AD (160x600)</div></div>
+        <div class="ad-bottom"><div style="width: 728px; height: 90px; background: #ddd; margin: 0 auto; display: flex; align-items: center; justify-content: center;">BOTTOM BANNER AD (728x90)</div></div>
+        <button id="close-frame" class="close-frame" title="Close Game">×</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Unchanged variables
+            const gamesContainer = document.getElementById('games-container');
+            const loadingElement = document.getElementById('loading');
+            const errorElement = document.getElementById('error');
+            const gameFrameContainer = document.getElementById('game-frame-container');
+            const gameFrame = document.getElementById('game-frame');
+            const closeFrameBtn = document.getElementById('close-frame');
+
+            // --- THIS IS THE ONLY LINE YOU NEED TO CHANGE FOR EACH FILE ---
+            const apiUrl = 'https://gamemonetize.com/feed.php?format=1&links=0&num=150&page=1'; // Default for home.html
+            
+            // The rest of the script is identical for all pages
+            fetch(apiUrl)
+                .then(response => { if (!response.ok) throw new Error('Network response was not ok'); return response.text(); })
+                .then(str => {
+                    const parser = new DOMParser(); const xmlDoc = parser.parseFromString(str, "text/xml");
+                    const items = xmlDoc.getElementsByTagName('item');
+                    if (items.length === 0) throw new Error('No games found for this page');
+                    loadingElement.style.display = 'none';
+                    gamesContainer.innerHTML = '';
+                    for (let i = 0; i < items.length; i++) {
+                        const item = items[i];
+                        const title = item.getElementsByTagName('title')[0]?.textContent || 'Untitled';
+                        const thumb = item.getElementsByTagName('thumb')[0]?.textContent || '';
+                        const url = item.getElementsByTagName('url')[0]?.textContent || '#';
+                        const category = item.getElementsByTagName('category')[0]?.textContent || 'Game';
+                        const gameCard = document.createElement('div');
+                        gameCard.className = 'game-card';
+                        gameCard.innerHTML = `<img src="${thumb}" alt="${title}" class="game-thumbnail" onerror="this.src='https://via.placeholder.com/250x150?text=No+Image'"><div class="game-info"><h3 class="game-title" title="${title}">${title}</h3><div class="game-category">${category}</div></div>`;
+                        gameCard.addEventListener('click', function() { gameFrame.src = url; gameFrameContainer.style.display = 'block'; document.body.style.overflow = 'hidden'; });
+                        gamesContainer.appendChild(gameCard);
+                    }
+                })
+                .catch(error => { console.error('Error loading games:', error); loadingElement.style.display = 'none'; errorElement.style.display = 'block'; errorElement.textContent = `Failed to load games. ${error.message}.`; });
+            closeFrameBtn.addEventListener('click', function() { gameFrame.src = ''; gameFrameContainer.style.display = 'none'; document.body.style.overflow = 'auto'; });
+        });
+    </script>
+</body>
+</html>
