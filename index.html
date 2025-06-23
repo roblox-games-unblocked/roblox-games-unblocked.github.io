@@ -79,26 +79,58 @@
         </div>
     </footer>
     <script>
-    (function() {
-        document.getElementById('menu-toggle').addEventListener('click', function() { document.getElementById('main-nav').classList.toggle('active'); });
-        document.querySelectorAll('.main-nav .dropdown > a').forEach(function(a) { a.addEventListener('click', function(b) { if (window.getComputedStyle(document.getElementById('menu-toggle')).display !== 'none') { b.preventDefault(); let c = this.nextElementSibling; if (c.classList.contains('submenu-active')) { c.classList.remove('submenu-active'); } else { document.querySelectorAll('.main-nav .submenu-active').forEach(function(d) { d.classList.remove('submenu-active'); });
-                        c.classList.add('submenu-active'); } } }); });
-        const apiUrl = 'https://gamemonetize.com/feed.php?format=1&num=50&page=1';
-        const gamesContainer = document.getElementById('games-container');
-        const gameFrameContainer = document.getElementById('game-frame-container');
-        const gameFrame = document.getElementById('game-frame');
-        const closeFrameBtn = document.getElementById('close-frame');
-        fetch(apiUrl).then(r => r.text()).then(str => { let p = new DOMParser(); let xml = p.parseFromString(str, "text/xml"); let items = xml.getElementsByTagName('item'); if (items.length === 0) throw new Error('No games found.'); let h = ''; for (let i of items) { h += `<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`; } gamesContainer.innerHTML = h; }).catch(e => { console.error(e);
-            gamesContainer.innerHTML = `<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`; });
-        gamesContainer.addEventListener('click', e => { let c = e.target.closest('.game-card'); if (c) { gameFrame.src = c.dataset.url;
-                gameFrameContainer.classList.add('active');
-                document.body.style.overflow = 'hidden';
-                (document.querySelectorAll('.adsbygoogle') || []).forEach(() => { try {
-                        (adsbygoogle = window.adsbygoogle || []).push({}); } catch (err) { console.error(err); } }); } });
-        closeFrameBtn.addEventListener('click', () => { gameFrame.src = 'about:blank';
-            gameFrameContainer.classList.remove('active');
-            document.body.style.overflow = 'auto'; });
-    })();
+        (function() {
+            // --- MENU LOGIC (Always runs) ---
+            document.getElementById('menu-toggle').addEventListener('click', function() {
+                document.getElementById('main-nav').classList.toggle('active');
+            });
+
+            document.querySelectorAll('.main-nav .dropdown > a').forEach(function(toggle) {
+                toggle.addEventListener('click', function(e) {
+                    if (window.getComputedStyle(document.getElementById('menu-toggle')).display !== 'none') {
+                        e.preventDefault();
+                        let submenu = this.nextElementSibling;
+                        if (submenu.classList.contains('submenu-active')) {
+                            submenu.classList.remove('submenu-active');
+                        } else {
+                            document.querySelectorAll('.main-nav .submenu-active').forEach(function(openSubmenu) {
+                                openSubmenu.classList.remove('submenu-active');
+                            });
+                            submenu.classList.add('submenu-active');
+                        }
+                    }
+                });
+            });
+
+            // --- GAME LOGIC (Only runs if the container exists) ---
+            const gamesContainer = document.getElementById('games-container');
+            if (gamesContainer) {
+                const apiUrl = 'https://gamemonetize.com/feed.php?format=1&num=50&page=1';
+                const gameFrameContainer = document.getElementById('game-frame-container');
+                const gameFrame = document.getElementById('game-frame');
+                const closeFrameBtn = document.getElementById('close-frame');
+
+                fetch(apiUrl).then(r=>r.text()).then(str=>{let p=new DOMParser();let xml=p.parseFromString(str,"text/xml");let items=xml.getElementsByTagName('item');if(items.length===0)throw new Error('No games found.');let h='';for(let i of items){h+=`<div class="game-card" data-url="${i.getElementsByTagName('url')[0].textContent}"><img src="${i.getElementsByTagName('thumb')[0].textContent}" alt="${i.getElementsByTagName('title')[0].textContent}" class="game-thumbnail" loading="lazy"><div class="game-info"><h3 class="game-title">${i.getElementsByTagName('title')[0].textContent}</h3><div class="game-category">${i.getElementsByTagName('category')[0].textContent}</div></div></div>`;}gamesContainer.innerHTML=h;}).catch(e=>{console.error(e);gamesContainer.innerHTML=`<div class="error" style="grid-column:1/-1;">Failed to load games.</div>`;});
+                
+                gamesContainer.addEventListener('click', e => {
+                    let c = e.target.closest('.game-card');
+                    if (c) {
+                        gameFrame.src = c.dataset.url;
+                        gameFrameContainer.classList.add('active'); 
+                        document.body.style.overflow = 'hidden';
+                        (document.querySelectorAll('.adsbygoogle') || []).forEach(() => {
+                            try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch (err) { console.error(err); }
+                        });
+                    }
+                });
+
+                closeFrameBtn.addEventListener('click', () => {
+                    gameFrame.src = 'about:blank';
+                    gameFrameContainer.classList.remove('active'); 
+                    document.body.style.overflow = 'auto';
+                });
+            }
+        })();
     </script>
 </body>
 
