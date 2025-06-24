@@ -1,0 +1,41 @@
+{
+  "ads_enabled_global": 1, 
+  "homepage": {
+    "sidebar_left": {
+      "enabled": 0,
+      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>HOMEPAGE LEFT AD<br>(160x600)</div>"
+    },
+    "sidebar_right": {
+      "enabled": 1,
+      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>HOMEPAGE RIGHT AD<br>(160x600)</div>"
+    }
+  },
+  "category_page": {
+    "sidebar_left": {
+      "enabled": 1,
+      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>CATEGORY LEFT AD<br>(160x600)</div>"
+    },
+    "sidebar_right": {
+      "enabled": 0,
+      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>CATEGORY RIGHT AD<br>(160x600)</div>"
+    }
+  },
+  "game_page": {
+    "interstitial": {
+      "enabled": 1,
+      "ad_code": "<div id='simulated-ad-placeholder' style='width: 300px; height: 250px; background-color: #ddd; display: flex; align-items: center; justify-content: center; text-align: center; color: #333; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;'>INTERSTITIAL AD<br>(300 x 250)</div>"
+    },
+    "top_banner": {
+      "enabled": 0,
+      "ad_code": "<div style='width: 728px; height: 90px; background-color: #f0f0f0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>GAME TOP AD<br>(728x90)</div>"
+    },
+    "sidebar_left": {
+      "enabled": 1,
+      "ad_code": "<div style='width: 160px; height: 600px; background-color: #f0f0f0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>GAME LEFT AD<br>(160x600)</div>"
+    },
+    "sidebar_right": {
+      "enabled": 1,
+      "ad_code": "<div style='width: 160px; height: 600px; background-color: #f0f0f0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>GAME RIGHT AD<br>(160x600)</div>"
+    }
+  }
+}

@@ -604,3 +604,65 @@ main {
     /* Close button for interstitial was not previously defined for game page, ensuring it's not confused */
     /* .close-frame on game page interstitial is not used, this style is for old pop-up */
 }
+
+/* ... (existing styles) ... */
+
+/* Layout for pages with sidebars */
+.main-with-sidebars {
+    display: flex;
+    justify-content: center; /* Center the main content area */
+    gap: 20px; /* Space between sidebars and main content */
+    width: 100%;
+    max-width: 1600px; /* Example: 160 (left) + 1200 (main) + 160 (right) + gaps */
+    margin: 0 auto; /* Center the whole layout */
+    padding: 0 15px; /* Overall padding for the flex container */
+    box-sizing: border-box;
+}
+
+.main-content-area.container { /* Targets the renamed container for home/category */
+    flex-grow: 1; /* Allows main content to take available space */
+    max-width: 1200px; /* Original max-width for content */
+    padding: 0; /* Container padding is now on .main-with-sidebars or handled by .container's original padding if nested differently */
+                /* If .container is still inside .main-content-area, its original padding: 20px will apply */
+}
+
+.sidebar-ad-container {
+    width: 160px; /* Fixed width for sidebar ads */
+    flex-shrink: 0; /* Prevent sidebars from shrinking */
+    /* background-color: #f9f9f9; */ /* Optional background for visibility */
+    /* padding: 10px; */
+    /* border: 1px solid #ddd; */
+    display: flex; /* To center content if needed, or for ad unit itself */
+    justify-content: center;
+    align-items: flex-start; /* Align ad to top */
+    margin-top: 20px; /* Align with main content's top padding/margin */
+}
+
+
+/* Responsive adjustments for sidebars on home/category */
+@media (max-width: 1500px) { /* Adjust breakpoint as needed */
+    .main-with-sidebars {
+        /* max-width: 1240px; /* 1200 (main) + 20*2 (gaps) */
+        /* No right sidebar */
+    }
+    #ad-home-sidebar-right,
+    #ad-category-sidebar-right {
+        display: none !important; /* Important to override inline style if JS showed it */
+    }
+}
+
+@media (max-width: 1024px) { /* Hide left sidebar as well */
+     .main-with-sidebars {
+        /* max-width: 1200px; */
+        flex-direction: column; /* Stack content if sidebars are hidden */
+        align-items: center;
+    }
+    #ad-home-sidebar-left,
+    #ad-category-sidebar-left {
+         display: none !important;
+    }
+    .main-content-area.container {
+        width: 100%; /* Full width when sidebars are gone */
+        max-width: 1200px; /* Respect original max width */
+    }
+}
