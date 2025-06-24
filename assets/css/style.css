@@ -383,22 +383,22 @@ main {
 }
 
 
-/* --- INTERSTITIAL AD STYLES (Should already exist from previous step, ensure it's here) --- */
+/* --- INTERSTITIAL AD STYLES --- */
 .interstitial-ad-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.85); /* Slightly darker for game page interstitial */
-    z-index: 3000; /* Ensure it's on top of game page content */
+    background-color: rgba(0, 0, 0, 0.85); 
+    z-index: 3000; 
     display: none; 
     align-items: center;
     justify-content: center;
     flex-direction: column; 
 }
 
-.interstitial-ad-overlay.active {
+.interstitial-ad-overlay.active { /* Use .active or directly set display:flex in JS */
     display: flex; 
 }
 
@@ -422,9 +422,6 @@ main {
     justify-content: center;
     border: 1px solid #ccc;
 }
-#simulated-ad-placeholder { /* If you kept this ID for simulation */
-    /* Styles are inline in HTML for the simulation */
-}
 
 .interstitial-timer {
     font-size: 16px;
@@ -435,7 +432,7 @@ main {
 
 .interstitial-skip-btn {
     padding: 10px 20px;
-    background-color: #28a745; /* Green for play/skip */
+    background-color: #28a745; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -448,27 +445,73 @@ main {
 .interstitial-skip-btn:hover {
     background-color: #218838;
 }
-/* --- END INTERSTITIAL AD STYLES --- */
 
 
-/* --- RESPONSIVE STYLES --- */
-@media (max-width: 1350px) { /* Adjust breakpoint based on game area + ads */
-    .game-ad-left,
-    .game-ad-right {
-        /* Consider hiding side ads if space is tight, or make them smaller */
-         display: none; 
-    }
-    #game-play-area-container {
-        padding: 0 10px; /* Reduce padding on smaller wide screens */
-    }
-    .game-iframe-onpage {
-        /* If side ads are hidden, iframe can take more width */
-        /* max-width: 100%;  Ensures it doesn't overflow its parent if parent is constrained */
-    }
+/* Layout for pages with sidebars (Homepage, Category) */
+.main-with-sidebars {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    width: 100%;
+    max-width: 1600px; /* Max container width for 3 columns: 160+20+1200+20+160 = 1560. 1600 is fine. */
+    margin: 20px auto; /* Add some top/bottom margin for these pages */
+    padding: 0 15px; 
+    box-sizing: border-box;
+}
+
+.main-content-area.container { /* Targets the main content block on home/category */
+    flex-grow: 1; 
+    max-width: 1200px; 
+    padding:0; /* Original container padding: 20px will be applied by its own class if still nested, or not needed if this IS the padded container */
+}
+
+.sidebar-ad-container { /* Common class for sidebar ad slots on home/category */
+    width: 160px; 
+    flex-shrink: 0; 
+    /* margin-top: 20px; /* Align with main content's top padding/margin if any */
+    /* Styles for ad placeholder visuals are inline or in ad_manager.js for actual ads */
 }
 
 
-@media (max-width: 992px) { /* Tablet and below */
+/* --- RESPONSIVE STYLES --- */
+
+/* Responsive adjustments for sidebars on home/category pages */
+/* Hide LEFT sidebar first on medium screens */
+@media (max-width: 1399px) { 
+    /* This breakpoint means if the screen is too small for 3 columns (e.g. < 160+1200+160 + gaps) */
+    /* We hide the left sidebar. Content + Right Sidebar will remain. */
+    #ad-home-sidebar-left,
+    #ad-category-sidebar-left {
+        display: none !important; /* Important to override JS if it showed the ad */
+    }
+    .main-with-sidebars {
+        justify-content: center; /* Center the remaining (main content + right ad) */
+    }
+     .main-content-area.container {
+        margin-left: 0; /* Adjust if it was centered before or relying on left sidebar for positioning */
+    }
+}
+
+/* Hide RIGHT sidebar on smaller "tablet" or "large phone landscape" screens (mobile breakpoint) */
+@media (max-width: 991px) { 
+    #ad-home-sidebar-right,
+    #ad-category-sidebar-right {
+         display: none !important; /* Important to override JS if it showed the ad */
+    }
+    /* At this point, both sidebars for home/category are hidden. */
+    /* .main-with-sidebars might need to stack or content just takes full width */
+     .main-with-sidebars {
+        flex-direction: column; /* Stack main content if sidebars are gone */
+        align-items: center;    /* Center the stacked content area */
+        margin-top: 20px; /* Keep consistent top margin */
+    }
+    .main-content-area.container {
+        width: 100%; /* Main content takes full available width */
+        max-width: 1200px; /* But not exceeding its own max-width setting */
+        margin: 0; /* Reset margins if flex column centers it */
+    }
+
+    /* General Mobile Nav Adjustments from original 992px breakpoint */
     .main-nav {
         display: none;
         position: absolute;
@@ -499,7 +542,7 @@ main {
         border-bottom: none;
     }
 
-    .dropdown-content {
+    .dropdown-content { /* Mobile dropdown adjustments */
         display: block; 
         position: static;
         background-color: #f8f9fa; 
@@ -541,31 +584,44 @@ main {
     .menu-toggle {
         display: block;
     }
+}
 
-    /* Game Page Responsive */
-    .game-iframe-onpage {
-        width: 100%; /* Make iframe responsive */
-        height: auto;  /* Adjust height based on width */
-        aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+
+/* Game Page Responsive Ads - Hiding side ads earlier */
+@media (max-width: 1350px) { 
+    .page-game .game-ad-left, /* Target game page ads specifically */
+    .page-game .game-ad-right {
+         display: none; 
     }
-    .game-ad-top {
-        /* Optionally hide top ad on smaller screens or use a responsive ad unit */
-        /* display: none; */
-    }
-     .game-ad-top > div { /* Target the placeholder div */
-        max-width: 100%; /* Ensure placeholder itself is responsive */
-        width: auto; /* Allow it to shrink */
-        min-width: 250px; /* Example min-width for smaller ad units */
-        height: auto; /* Or fixed height for smaller units e.g. 50px */
+    #game-play-area-container {
+        padding: 0 10px; 
     }
 }
 
-@media (max-width: 768px) { /* Mobile */
+
+@media (max-width: 991px) { /* Game iframe responsiveness was in 992px, let's keep it consistent */
+    .game-iframe-onpage {
+        width: 100%; 
+        height: auto;  
+        aspect-ratio: 16 / 9; 
+    }
+    .game-ad-top {
+        /* display: none; /* Option: hide top ad on smaller screens */
+    }
+     .game-ad-top > div { 
+        max-width: 100%; 
+        width: auto; 
+        min-width: 250px; 
+        height: auto; 
+    }
+}
+
+@media (max-width: 767px) { /* True Mobile Styles */
     .text-content, .category-header {
-        padding: 20px; /* Reduce padding for text content on mobile */
+        padding: 20px; 
     }
     .hero-section h1, .category-header h1, .game-play-header h1 {
-        font-size: 1.8rem; /* Smaller headings on mobile */
+        font-size: 1.8rem; 
     }
     .hero-section .subtitle, .category-header p {
         font-size: 1rem;
@@ -579,90 +635,23 @@ main {
         text-align: center;
     }
 
-    /* Game Page Responsive */
+    /* Game Page Responsive on mobile */
     .game-ad-top {
-        display: none; /* Often best to hide large banner ads on mobile */
+        display: none; 
     }
     .game-display-wrapper {
-        padding: 10px; /* Less padding around game on mobile */
+        padding: 10px; 
     }
     #game-play-area-container {
-        margin: 10px auto; /* Less margin */
-        padding: 0 5px; /* Minimal padding */
+        margin: 10px auto; 
+        padding: 0 5px; 
     }
 
     .interstitial-ad-content {
-        padding: 15px; /* Smaller padding for interstitial on mobile */
+        padding: 15px; 
         max-width: 95%;
     }
      .interstitial-ad-unit {
-        /* Ensure ad unit fits, if using fixed size, might need responsive ad unit from provider */
         max-width: 100%;
-        /* height: auto; /* if using responsive ad */
-    }
-
-    /* Close button for interstitial was not previously defined for game page, ensuring it's not confused */
-    /* .close-frame on game page interstitial is not used, this style is for old pop-up */
-}
-
-/* ... (existing styles) ... */
-
-/* Layout for pages with sidebars */
-.main-with-sidebars {
-    display: flex;
-    justify-content: center; /* Center the main content area */
-    gap: 20px; /* Space between sidebars and main content */
-    width: 100%;
-    max-width: 1600px; /* Example: 160 (left) + 1200 (main) + 160 (right) + gaps */
-    margin: 0 auto; /* Center the whole layout */
-    padding: 0 15px; /* Overall padding for the flex container */
-    box-sizing: border-box;
-}
-
-.main-content-area.container { /* Targets the renamed container for home/category */
-    flex-grow: 1; /* Allows main content to take available space */
-    max-width: 1200px; /* Original max-width for content */
-    padding: 0; /* Container padding is now on .main-with-sidebars or handled by .container's original padding if nested differently */
-                /* If .container is still inside .main-content-area, its original padding: 20px will apply */
-}
-
-.sidebar-ad-container {
-    width: 160px; /* Fixed width for sidebar ads */
-    flex-shrink: 0; /* Prevent sidebars from shrinking */
-    /* background-color: #f9f9f9; */ /* Optional background for visibility */
-    /* padding: 10px; */
-    /* border: 1px solid #ddd; */
-    display: flex; /* To center content if needed, or for ad unit itself */
-    justify-content: center;
-    align-items: flex-start; /* Align ad to top */
-    margin-top: 20px; /* Align with main content's top padding/margin */
-}
-
-
-/* Responsive adjustments for sidebars on home/category */
-@media (max-width: 1500px) { /* Adjust breakpoint as needed */
-    .main-with-sidebars {
-        /* max-width: 1240px; /* 1200 (main) + 20*2 (gaps) */
-        /* No right sidebar */
-    }
-    #ad-home-sidebar-right,
-    #ad-category-sidebar-right {
-        display: none !important; /* Important to override inline style if JS showed it */
-    }
-}
-
-@media (max-width: 1024px) { /* Hide left sidebar as well */
-     .main-with-sidebars {
-        /* max-width: 1200px; */
-        flex-direction: column; /* Stack content if sidebars are hidden */
-        align-items: center;
-    }
-    #ad-home-sidebar-left,
-    #ad-category-sidebar-left {
-         display: none !important;
-    }
-    .main-content-area.container {
-        width: 100%; /* Full width when sidebars are gone */
-        max-width: 1200px; /* Respect original max width */
     }
 }
