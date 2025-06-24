@@ -442,6 +442,9 @@ main {
     font-size: 16px;
     font-weight: bold;
     transition: background-color 0.2s;
+    /*to cnetre button*/
+    display: block;
+    margin: 0 auto; /* Centers block-level elements */
 }
 
 .interstitial-skip-btn:hover {
@@ -470,7 +473,22 @@ main {
 .sidebar-ad-container { /* Common class for sidebar ad slots on home/category */
     width: 160px; 
     flex-shrink: 0; 
-    /* margin-top: 20px; /* Align with main content's top padding/margin if any */
+    
+    /* --- STICKY ADS --- */
+    position: -webkit-sticky; /* For Safari compatibility */
+    position: sticky;
+    /* top: Value needs to account for sticky header and any top margin of the ad's container */
+    /* Header height is 60px. The parent '.main-with-sidebars' has 'margin: 20px auto;' */
+    /* So the ads should stick 20px below the 60px header. */
+    top: 80px; /* 60px (header) + 20px (top margin of .main-with-sidebars) */
+    
+    /* Ensure the sticky element aligns correctly if its container is a flexbox */
+    align-self: flex-start; 
+
+    /* It's good for sticky elements to have a defined height or for their content to define a height.
+       Your ad placeholders are 160x600. So we can set height on the container too. */
+    height: 600px; /* Or max-height if ad content height can vary and you want it scrollable within itself */
+
     /* Styles for ad placeholder visuals are inline or in ad_manager.js for actual ads */
 }
 
