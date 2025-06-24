@@ -22,7 +22,7 @@
   },
   "game_page": {
     "interstitial": {
-      "enabled": 1,
+      "enabled": 0,
       "ad_code": "<div id='simulated-ad-placeholder' style='width: 300px; height: 250px; background-color: #ddd; display: flex; align-items: center; justify-content: center; text-align: center; color: #333; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;'>INTERSTITIAL AD<br>(300 x 250)</div>"
     },
     "top_banner": {
