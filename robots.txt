@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roblox-games-unblocked.github.io/sitemap.xml
