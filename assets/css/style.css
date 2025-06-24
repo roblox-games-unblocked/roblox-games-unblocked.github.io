@@ -1,0 +1,668 @@
+/* --- LAYOUT & SHELL STYLES --- */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* Header Styles */
+.main-header {
+    background-color: #ffffff;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav li {
+    position: relative;
+}
+
+.main-nav a {
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+    color: #007bff;
+    background-color: #f8f9fa;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+    display: none; /* Default for desktop, overridden by hover */
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+    border-radius: 4px;
+    overflow: hidden;
+    border-top: 2px solid #007bff;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    /* On mobile, this will be overridden */
+}
+
+/* Desktop-only hover effect */
+@media (min-width: 993px) {
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+/* Hamburger Menu for Mobile */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 28px;
+}
+
+/* Footer & Content Styles */
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.main-footer a {
+    color: #aedffc;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    font-size: 12px;
+    text-align: right;
+}
+
+.footer-links a {
+    margin: 0 5px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Category Page Header specific styling */
+.category-header {
+    background-color: #fff; /* Similar to text-content but can be distinct */
+    margin-bottom: 30px;
+    padding: 25px 40px; /* Slightly more padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.category-header h1 {
+    margin-top: 0;
+    font-size: 2.2rem;
+    color: #333;
+}
+.category-header p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.game-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    text-decoration: none; /* Ensure link style doesn't interfere */
+    display: flex; /* Added for better internal alignment if needed */
+    flex-direction: column; /* Ensure info is below thumbnail */
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.game-thumbnail {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+.game-info {
+    padding: 15px;
+    flex-grow: 1; /* Allows info to take remaining space if card height varies */
+}
+
+.game-title {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.game-category {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.loading {
+    text-align: center;
+    padding: 50px;
+    font-size: 22px;
+    color: #666;
+    font-weight: bold;
+    grid-column: 1 / -1; /* Make it span all columns */
+}
+
+.error {
+    color: #d32f2f;
+    text-align: center;
+    padding: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    grid-column: 1 / -1; /* Make it span all columns */
+}
+
+.text-content {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+.text-content h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.text-content h3 {
+    margin-top: 30px;
+}
+
+/* Introduction content on homepage */
+.introduction-content {
+    margin-bottom: 30px; /* Space below introduction */
+}
+.introduction-content p {
+    margin-bottom: 1em; 
+}
+.introduction-content strong {
+    color: #333; 
+}
+.introduction-content a {
+    color: #007bff;
+    text-decoration: underline;
+}
+.introduction-content a:hover {
+    color: #0056b3;
+}
+
+
+.hero-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff; /* Add a background to hero if desired */
+    border-radius: 8px;
+    margin-bottom: 30px; /* Space below hero */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hero-section .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-bottom: 20px; /* Space below title */
+    color: #333;
+}
+
+/* --- GAME PAGE STYLES --- */
+#game-page-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-play-area-container {
+    width: 100%;
+    max-width: 1350px; /* Accommodate 960px game + 2*160px ads + padding/margins */
+    margin: 20px auto;
+    padding: 0 20px; /* Side padding for the container itself */
+    box-sizing: border-box;
+}
+
+.game-play-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-play-header h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.game-display-wrapper {
+    background-color: #000; /* Black background for the game area */
+    padding: 15px; /* Padding around the ad/game content flex area */
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.game-ad-top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    /* Ad placeholder is already styled inline, this is for positioning */
+}
+
+.game-content-flex {
+    display: flex;
+    justify-content: center; /* Center game if ads are hidden */
+    align-items: flex-start; /* Align ads and game to the top */
+    gap: 15px; /* Space between ads and game frame */
+}
+
+.game-iframe-onpage {
+    width: 960px;   /* Default width for desktop */
+    height: 540px;  /* Default height (16:9 for 960px width) */
+    border: none;
+    background-color: #111; /* Darker placeholder if game is slow to load */
+    display: block; /* Remove extra space below iframe */
+}
+
+.game-ad-left,
+.game-ad-right {
+    width: 160px;
+    /* Ad placeholder is already styled inline, this is for positioning */
+    /* display: flex; align-items: center; justify-content: center; */ /* Useful if ad unit itself needs centering */
+}
+
+/* Button style (example, you might already have this or similar) */
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+
+/* --- INTERSTITIAL AD STYLES (Should already exist from previous step, ensure it's here) --- */
+.interstitial-ad-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85); /* Slightly darker for game page interstitial */
+    z-index: 3000; /* Ensure it's on top of game page content */
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.interstitial-ad-overlay.active {
+    display: flex; 
+}
+
+.interstitial-ad-content {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 380px; 
+    width: 90%;
+}
+
+.interstitial-ad-unit {
+    width: 300px; 
+    height: 250px; 
+    background-color: #e9e9e9; 
+    margin: 0 auto 20px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+}
+#simulated-ad-placeholder { /* If you kept this ID for simulation */
+    /* Styles are inline in HTML for the simulation */
+}
+
+.interstitial-timer {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.interstitial-skip-btn {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green for play/skip */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.interstitial-skip-btn:hover {
+    background-color: #218838;
+}
+/* --- END INTERSTITIAL AD STYLES --- */
+
+
+/* --- RESPONSIVE STYLES --- */
+@media (max-width: 1350px) { /* Adjust breakpoint based on game area + ads */
+    .game-ad-left,
+    .game-ad-right {
+        /* Consider hiding side ads if space is tight, or make them smaller */
+         display: none; 
+    }
+    #game-play-area-container {
+        padding: 0 10px; /* Reduce padding on smaller wide screens */
+    }
+    .game-iframe-onpage {
+        /* If side ads are hidden, iframe can take more width */
+        /* max-width: 100%;  Ensures it doesn't overflow its parent if parent is constrained */
+    }
+}
+
+
+@media (max-width: 992px) { /* Tablet and below */
+    .main-nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-height: calc(100vh - 60px);
+        overflow-y: auto;
+    }
+
+    .main-nav.active {
+        display: block;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-nav li {
+        width: 100%;
+        text-align: center; 
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .main-nav li:last-child { 
+        border-bottom: none;
+    }
+
+    .dropdown-content {
+        display: block; 
+        position: static;
+        background-color: #f8f9fa; 
+        box-shadow: none;
+        border-radius: 0;
+        border-top: none; 
+        max-height: 0; 
+        overflow: hidden;
+        transition: max-height 0.3s ease-out, padding-top 0.3s ease-out, padding-bottom 0.3s ease-out;
+        width: 100%; 
+        min-width: auto; 
+        padding-top: 0; 
+        padding-bottom: 0;
+    }
+
+    .dropdown-content.submenu-active {
+        max-height: 500px; 
+        transition: max-height 0.4s ease-in, padding-top 0.4s ease-in, padding-bottom 0.4s ease-in;
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        border-top: 1px solid #e0e0e0; 
+    }
+
+    .dropdown-content a {
+        padding: 10px 15px 10px 30px; 
+        text-align: left; 
+        color: #333; 
+        display: block; 
+        border-bottom: 1px solid #eee; 
+    }
+    .dropdown-content a:last-child {
+        border-bottom: none; 
+    }
+    .dropdown-content a.active { 
+        background-color: #e9ecef; 
+        color: #0056b3;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Game Page Responsive */
+    .game-iframe-onpage {
+        width: 100%; /* Make iframe responsive */
+        height: auto;  /* Adjust height based on width */
+        aspect-ratio: 16 / 9; /* Maintain 16:9 aspect ratio */
+    }
+    .game-ad-top {
+        /* Optionally hide top ad on smaller screens or use a responsive ad unit */
+        /* display: none; */
+    }
+     .game-ad-top > div { /* Target the placeholder div */
+        max-width: 100%; /* Ensure placeholder itself is responsive */
+        width: auto; /* Allow it to shrink */
+        min-width: 250px; /* Example min-width for smaller ad units */
+        height: auto; /* Or fixed height for smaller units e.g. 50px */
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .text-content, .category-header {
+        padding: 20px; /* Reduce padding for text content on mobile */
+    }
+    .hero-section h1, .category-header h1, .game-play-header h1 {
+        font-size: 1.8rem; /* Smaller headings on mobile */
+    }
+    .hero-section .subtitle, .category-header p {
+        font-size: 1rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-links {
+        text-align: center;
+    }
+
+    /* Game Page Responsive */
+    .game-ad-top {
+        display: none; /* Often best to hide large banner ads on mobile */
+    }
+    .game-display-wrapper {
+        padding: 10px; /* Less padding around game on mobile */
+    }
+    #game-play-area-container {
+        margin: 10px auto; /* Less margin */
+        padding: 0 5px; /* Minimal padding */
+    }
+
+    .interstitial-ad-content {
+        padding: 15px; /* Smaller padding for interstitial on mobile */
+        max-width: 95%;
+    }
+     .interstitial-ad-unit {
+        /* Ensure ad unit fits, if using fixed size, might need responsive ad unit from provider */
+        max-width: 100%;
+        /* height: auto; /* if using responsive ad */
+    }
+
+    /* Close button for interstitial was not previously defined for game page, ensuring it's not confused */
+    /* .close-frame on game page interstitial is not used, this style is for old pop-up */
+}
+
+/* ... (existing styles) ... */
+
+/* Layout for pages with sidebars */
+.main-with-sidebars {
+    display: flex;
+    justify-content: center; /* Center the main content area */
+    gap: 20px; /* Space between sidebars and main content */
+    width: 100%;
+    max-width: 1600px; /* Example: 160 (left) + 1200 (main) + 160 (right) + gaps */
+    margin: 0 auto; /* Center the whole layout */
+    padding: 0 15px; /* Overall padding for the flex container */
+    box-sizing: border-box;
+}
+
+.main-content-area.container { /* Targets the renamed container for home/category */
+    flex-grow: 1; /* Allows main content to take available space */
+    max-width: 1200px; /* Original max-width for content */
+    padding: 0; /* Container padding is now on .main-with-sidebars or handled by .container's original padding if nested differently */
+                /* If .container is still inside .main-content-area, its original padding: 20px will apply */
+}
+
+.sidebar-ad-container {
+    width: 160px; /* Fixed width for sidebar ads */
+    flex-shrink: 0; /* Prevent sidebars from shrinking */
+    /* background-color: #f9f9f9; */ /* Optional background for visibility */
+    /* padding: 10px; */
+    /* border: 1px solid #ddd; */
+    display: flex; /* To center content if needed, or for ad unit itself */
+    justify-content: center;
+    align-items: flex-start; /* Align ad to top */
+    margin-top: 20px; /* Align with main content's top padding/margin */
+}
+
+
+/* Responsive adjustments for sidebars on home/category */
+@media (max-width: 1500px) { /* Adjust breakpoint as needed */
+    .main-with-sidebars {
+        /* max-width: 1240px; /* 1200 (main) + 20*2 (gaps) */
+        /* No right sidebar */
+    }
+    #ad-home-sidebar-right,
+    #ad-category-sidebar-right {
+        display: none !important; /* Important to override inline style if JS showed it */
+    }
+}
+
+@media (max-width: 1024px) { /* Hide left sidebar as well */
+     .main-with-sidebars {
+        /* max-width: 1200px; */
+        flex-direction: column; /* Stack content if sidebars are hidden */
+        align-items: center;
+    }
+    #ad-home-sidebar-left,
+    #ad-category-sidebar-left {
+         display: none !important;
+    }
+    .main-content-area.container {
+        width: 100%; /* Full width when sidebars are gone */
+        max-width: 1200px; /* Respect original max width */
+    }
+}
