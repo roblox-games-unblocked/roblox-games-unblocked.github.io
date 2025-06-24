@@ -479,7 +479,7 @@ main {
 
 /* Responsive adjustments for sidebars on home/category pages */
 /* Hide LEFT sidebar first on medium screens */
-@media (max-width: 1399px) { 
+@media (max-width: 1100px) { 
     /* This breakpoint means if the screen is too small for 3 columns (e.g. < 160+1200+160 + gaps) */
     /* We hide the left sidebar. Content + Right Sidebar will remain. */
     #ad-home-sidebar-left,
