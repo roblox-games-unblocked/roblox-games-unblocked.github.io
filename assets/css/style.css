@@ -674,6 +674,13 @@ main {
      .interstitial-ad-unit {
         max-width: 100%;
     }
+    /* --- ADD THESE NEW RULES --- */
+    #ad-game-top-banner,
+    #ad-game-sidebar-left,
+    #ad-game-sidebar-right {
+        display: none !important; /* Hide these specific ad slots by ID on mobile */
+    }
+    /* --- END OF NEW RULES --- */    
 }
 
 /* --- FEATURED GAMEPLAY SECTION STYLES --- */
