@@ -463,7 +463,7 @@ main {
 
 .main-content-area.container { /* Targets the main content block on home/category */
     flex-grow: 1; 
-    max-width: 1200px; 
+    max-width: 1000px; 
     padding:0; /* Original container padding: 20px will be applied by its own class if still nested, or not needed if this IS the padded container */
 }
 
@@ -509,7 +509,7 @@ main {
     }
     .main-content-area.container {
         width: 100%; /* Main content takes full available width */
-        max-width: 1200px; /* But not exceeding its own max-width setting */
+        max-width: 1000px; /* But not exceeding its own max-width setting */
         margin: 0; /* Reset margins if flex column centers it */
     }
 
