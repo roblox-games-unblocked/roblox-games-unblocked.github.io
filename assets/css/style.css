@@ -722,7 +722,7 @@ main {
     padding: 14px 30px;
     border: none;
     border-radius: 8px;
-    font-size: 1.3rem;
+    font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.2s ease-out, transform 0.2s ease-out;
@@ -864,7 +864,7 @@ main {
         font-size: 1.8rem;
     }
     .btn-play-featured {
-        font-size: 1.1rem;
+        font-size: 2rem;
         padding: 12px 25px;
     }
     .featured-game-logo {

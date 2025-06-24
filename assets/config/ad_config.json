@@ -23,7 +23,7 @@
   "game_page": {
     "interstitial": {
       "enabled": 1,
-      "ad_code": "<div id='simulated-ad-placeholder' style='width: 300px; height: 250px; background-color: #ddd; display: flex; align-items: center; justify-content: center; text-align: center; color: #333; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;'>--AD--</div>"
+      "ad_code": "<div id='simulated-ad-placeholder' style='width: 300px; height: 250px; background-color: #ddd; display: flex; align-items: center; justify-content: center; text-align: center; color: #333; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;'>Loading...</div>"
     },
     "top_banner": {
       "enabled": 1,
