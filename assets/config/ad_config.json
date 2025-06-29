@@ -3,21 +3,21 @@
   "homepage": {
     "sidebar_left": {
       "enabled": 1,
-      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>--AD--</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '0d1ec9b3aba7d627477561dbc22788bf',\n\t\t'format' : 'iframe',\n\t\t'height' : 600,\n\t\t'width' : 160,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/0d1ec9b3aba7d627477561dbc22788bf/invoke.js\"></script>"
     },
     "sidebar_right": {
       "enabled": 1,
-      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>--AD--</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '0d1ec9b3aba7d627477561dbc22788bf',\n\t\t'format' : 'iframe',\n\t\t'height' : 600,\n\t\t'width' : 160,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/0d1ec9b3aba7d627477561dbc22788bf/invoke.js\"></script>"
     }
   },
   "category_page": {
     "sidebar_left": {
       "enabled": 1,
-      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>--AD--</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '0d1ec9b3aba7d627477561dbc22788bf',\n\t\t'format' : 'iframe',\n\t\t'height' : 600,\n\t\t'width' : 160,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/0d1ec9b3aba7d627477561dbc22788bf/invoke.js\"></script>"
     },
     "sidebar_right": {
       "enabled": 1,
-      "ad_code": "<div style='width: 160px; height: 600px; background-color: #e0e0e0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>--AD--</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '0d1ec9b3aba7d627477561dbc22788bf',\n\t\t'format' : 'iframe',\n\t\t'height' : 600,\n\t\t'width' : 160,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/0d1ec9b3aba7d627477561dbc22788bf/invoke.js\"></script>"
     }
   },
   "game_page": {
@@ -31,11 +31,11 @@
     },
     "sidebar_left": {
       "enabled": 1,
-      "ad_code": "<div style='width: 160px; height: 600px; background-color: #f0f0f0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>--AD--</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '0d1ec9b3aba7d627477561dbc22788bf',\n\t\t'format' : 'iframe',\n\t\t'height' : 600,\n\t\t'width' : 160,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/0d1ec9b3aba7d627477561dbc22788bf/invoke.js\"></script>"
     },
     "sidebar_right": {
       "enabled": 1,
-      "ad_code": "<div style='width: 160px; height: 600px; background-color: #f0f0f0; border: 1px solid #ccc; display: flex; align-items: center; justify-content: center; text-align: center;'>--AD--</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '0d1ec9b3aba7d627477561dbc22788bf',\n\t\t'format' : 'iframe',\n\t\t'height' : 600,\n\t\t'width' : 160,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/0d1ec9b3aba7d627477561dbc22788bf/invoke.js\"></script>"
     }
   }
 }
