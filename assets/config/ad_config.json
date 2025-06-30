@@ -1,5 +1,5 @@
 {
-  "ads_enabled_global": 1, 
+  "ads_enabled_global": 1,
   "homepage": {
     "sidebar_left": {
       "enabled": 1,
@@ -23,7 +23,7 @@
   "game_page": {
     "interstitial": {
       "enabled": 1,
-      "ad_code": "<div id='simulated-ad-placeholder' style='width: 300px; height: 250px; background-color: #ddd; display: flex; align-items: center; justify-content: center; text-align: center; color: #333; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;'>Loading...</div>"
+      "ad_code": "<script type=\"text/javascript\">\n\tatOptions = {\n\t\t'key' : '84aacf1ae0659bd6e173a004370d19ed',\n\t\t'format' : 'iframe',\n\t\t'height' : 250,\n\t\t'width' : 300,\n\t\t'params' : {}\n\t};\n</script>\n<script type=\"text/javascript\" src=\"//nursequestionmoss.com/84aacf1ae0659bd627477561dbc22788bf/invoke.js\"></script>"
     },
     "top_banner": {
       "enabled": 1,
