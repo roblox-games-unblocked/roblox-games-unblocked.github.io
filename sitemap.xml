@@ -2,103 +2,143 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://roblox-games-unblocked.github.io/</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/arcade.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/shooting.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/soccer.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/io.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/2-players.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/3d.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/adventure.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/clicker.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/cooking.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/hypercasual.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/multiplayer.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/puzzle.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/racing.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/sports.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/category/stickman.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://roblox-games-unblocked.github.io/play/cake-sorting-deluxe_68050.html</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://img.gamemonetize.com/66ju6j48hp5fcnxs2r30qg771tai27wk/512x384.jpg</image:loc>
+      <image:title>Cake Sorting Deluxe</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://roblox-games-unblocked.github.io/play/falcon-dogfight_68074.html</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://img.gamemonetize.com/cl3xlvuunrx3n0wzmg7djrolfz6qv9io/512x384.jpg</image:loc>
+      <image:title>Falcon Dogfight</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://roblox-games-unblocked.github.io/play/bus-jam-escape_68128.html</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://img.gamemonetize.com/jwxerakx91932kexqr0392ukojb424xa/512x384.jpg</image:loc>
+      <image:title>Bus Jam Escape</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://roblox-games-unblocked.github.io/play/pentaword_68047.html</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://img.gamemonetize.com/dnxuvbu0k01nv95tf72yguxc1x0kldog/512x384.jpg</image:loc>
+      <image:title>Pentaword</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://roblox-games-unblocked.github.io/play/mr-autofire_67967.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -108,7 +148,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bob-the-builder-coloring_67898.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -118,7 +158,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/monster-rush-cat_67873.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -128,7 +168,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/hidden-hero_67417.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -138,7 +178,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cosmic-strike-20_64918.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -148,7 +188,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/duck-shift_67858.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -158,7 +198,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/blockfall-blitz-master-the-falling-blocks_67829.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -168,7 +208,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/birdy-trip_67897.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -178,7 +218,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/treat-tumble_67473.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -188,7 +228,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/trump-wheelie-challenge_67863.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -198,7 +238,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/super-ball-juggling-remix_67874.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -208,7 +248,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/peaceful-gardening_67708.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -218,7 +258,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/break-it_67566.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -228,7 +268,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bank-boom-tung-tung-sahur_67163.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -238,7 +278,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/kids-toy-set-mobile_67421.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -248,7 +288,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/undead-appetite_67474.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -258,7 +298,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/car-simulation-drive-master_67580.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -268,7 +308,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/the-war2727_67608.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -278,7 +318,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bloxorz_10363.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -288,7 +328,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/monster-truck-dirt-rally_66946.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -298,7 +338,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/word-search-universe_67427.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -308,7 +348,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/the-hidden-booty_67601.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -318,7 +358,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gummy-blocks-puzzle_61571.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -328,7 +368,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/light-it-rush_67688.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -338,7 +378,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/super-motocross_67695.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -348,7 +388,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/wicked-whirl_67604.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -358,7 +398,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sauce-silk-spy_67197.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -368,7 +408,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/truck-driving-simulator-offroad_67112.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -378,7 +418,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sweet-beasts_67603.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -388,7 +428,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/thronehold_67602.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -398,7 +438,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/thung-thung-sahur-playgrounds-escape_67635.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -408,7 +448,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/parking-polly-cars_67588.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -418,7 +458,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/drag-n-boom_67570.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -428,7 +468,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/heroic-barrage_67605.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -438,7 +478,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/real-cargo-truck-driver-2025_67113.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -448,7 +488,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/emergency-operator_67353.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -458,7 +498,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/thung-thung-sahur-burning-desire_67517.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -468,7 +508,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/girls-pajama-party_64766.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -478,7 +518,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mini-supercars-racing-crashing_67327.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -488,7 +528,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/box-hop-duel_64642.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -498,7 +538,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/hidden-pairs-mahjong_67572.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -508,7 +548,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/chicken-jockey-shooting-tung-tung-sahur_66884.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -518,7 +558,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/classic-car-parking-2025_67301.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -528,7 +568,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/thung-thung-sahur-night-escape_67382.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -538,7 +578,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tralalero-tralala-hidden-stars_67391.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -548,7 +588,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/voice-of-the-soul_67422.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -557,18 +597,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://roblox-games-unblocked.github.io/play/shape-whiz_63978.html</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://img.gamemonetize.com/0ty9l8uw24x6y46wxln69fzdxcxszlw5/512x384.jpg</image:loc>
-      <image:title>Shape Whiz</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://roblox-games-unblocked.github.io/play/balloon-blitz_64388.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -578,7 +608,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/join-blob-clash_67231.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -587,18 +617,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://roblox-games-unblocked.github.io/play/vehicle-stunts-sky-sim_67324.html</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://img.gamemonetize.com/ousj5se644v7dap2ct2hbr9332glci0h/512x384.jpg</image:loc>
-      <image:title>Vehicle Stunts Sky Sim</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://roblox-games-unblocked.github.io/play/mythinsects-tower-defense_67350.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -608,7 +628,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stone-sheet-shears_64664.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -618,7 +638,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cute-kitty-memory-challenge_67116.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -628,7 +648,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tung-tung-sahur_67114.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -638,7 +658,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/city-plumber_16115.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -648,7 +668,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/chicken-jockey-hidden-lava-chicken_66359.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -658,7 +678,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/meme-survivors-backrooms_66229.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -668,7 +688,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/prankster-cat-simulator-fun_66889.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -678,7 +698,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tung-sahur-coloring_67087.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -688,7 +708,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-final-adventure_67041.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -698,7 +718,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/squishy-slime-maker_67075.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -708,7 +728,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/my-memory-boost_64696.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -717,18 +737,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://roblox-games-unblocked.github.io/play/chicken-jockey-deadflip_66900.html</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://img.gamemonetize.com/2v30ysa752e9s07flwtrp1yo3v8jpf78/512x384.jpg</image:loc>
-      <image:title>Chicken Jockey Deadflip</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://roblox-games-unblocked.github.io/play/tank-master_67132.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -738,7 +748,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-warfare_67135.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -748,7 +758,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/residents-evil-tariff-war_66902.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -758,7 +768,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/invaders-destruction_66548.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -768,7 +778,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/counter-craft-classic-2_65252.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -778,7 +788,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/polygun-idle-td_64963.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -788,7 +798,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/lost-bus_64427.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -798,7 +808,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/grand-crime-city_65202.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -808,7 +818,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/resident-evil-purge-operation_65196.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -818,7 +828,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/radiation-zone_64947.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -828,7 +838,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/counter-terror-3d_64790.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -838,7 +848,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/zombie-city-rescue_64797.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -848,7 +858,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sure-shot_64461.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -858,7 +868,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/defense-designer_64568.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -868,7 +878,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/human-stickman-gun_64465.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -878,7 +888,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/modern-fps-strike-zombie-gun-war-ops_64529.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -888,7 +898,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/fnaf-strike-2_64415.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -898,7 +908,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/counter-craft-modern-warfare-2_64141.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -908,7 +918,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/2player-tanks-of-war_63001.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -918,7 +928,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/deep-in-the-lab-chapter-1_63546.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -928,7 +938,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-shooter-2025_63474.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -938,7 +948,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/zombie-city-polygon-survival_63348.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -948,7 +958,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bubble-ball-shooter_59705.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -958,7 +968,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/counter-craft-modern-warfare_62567.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -968,7 +978,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/fierce-battle-breakout_62146.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -978,7 +988,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/allpeopletug_62167.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -988,7 +998,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/assassin-knight_60367.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -997,18 +1007,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://roblox-games-unblocked.github.io/play/counter-craft-classic_61776.html</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://img.gamemonetize.com/6uub4x1kky7d9prlxkqydgpbm8zq82jv/512x384.jpg</image:loc>
-      <image:title>Counter Craft Classic</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://roblox-games-unblocked.github.io/play/tank-soccer-battle-1-2-3-4-player_63028.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1018,7 +1018,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/floorland-creator_56058.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1028,7 +1028,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/goal-dot-3d_56048.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1038,7 +1038,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/football-king_54284.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1048,7 +1048,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/shaolin-soccer_52208.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1058,7 +1058,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/asian-cup-soccer_52181.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1068,7 +1068,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/halloween-soccer_50029.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1078,7 +1078,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mini-soccer_49940.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1088,7 +1088,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/grimace-ball-jumpling_48631.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1098,7 +1098,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/skibidi-toilet-ball-juggling_48370.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1108,7 +1108,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/womens-world-cup-2023_47973.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1118,7 +1118,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/messi-new-challenge_47635.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1128,7 +1128,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/neymar-can-play_45384.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1138,7 +1138,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/rumble-stars-football_38032.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1148,7 +1148,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/el-clasico_44993.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1158,7 +1158,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/magic-soccer_42683.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1168,7 +1168,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/balles_42743.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1178,7 +1178,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tap-goal_43705.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1188,7 +1188,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/head-soccer-2023-2d_44017.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1198,7 +1198,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mini-head-basketball_42276.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1208,7 +1208,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/free-kick-world-cup-2022_41857.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1218,7 +1218,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/head-socce2022_36548.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1228,7 +1228,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ketchapp-basketball_39679.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1238,7 +1238,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/géométrie-clash-go_39681.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1248,7 +1248,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/super-simple-soccer_41301.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1258,7 +1258,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/fifa-soccer-2023_40598.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1268,7 +1268,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/super-soccer_40812.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1278,7 +1278,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/santa-fiity-special_40955.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1288,7 +1288,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/throw-ball-in-the-hole_39150.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1298,7 +1298,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/worldcup-2022-fk_40207.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1308,7 +1308,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/world-conqueror_54069.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1318,7 +1318,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/driver-fast_62056.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1328,7 +1328,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/renovation_62152.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1338,7 +1338,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/survevio_59414.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1348,7 +1348,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/battle-jitsu_58068.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1358,7 +1358,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bitcoin-mining-simulator-x_55652.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1368,7 +1368,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/marble-match-origin_53203.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1378,7 +1378,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/guerrillasio_53209.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1388,7 +1388,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/grind-io_53097.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1398,7 +1398,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/state-wars_52971.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1408,7 +1408,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/rolling-ballsio_53047.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1418,7 +1418,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/snake-wars_52528.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1428,7 +1428,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cobraz-io_52510.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1438,7 +1438,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/armed-forcesio_49511.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1448,7 +1448,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/swordbattleio_50000.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1458,7 +1458,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/christmas-snowball-arena_49889.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1468,7 +1468,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/worms-arena-io_51162.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1478,7 +1478,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/protect-emojis_50224.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1488,7 +1488,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sumo-battle_49386.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1498,7 +1498,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/merge-room_49246.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1508,7 +1508,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/grimace-matching_49018.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1518,7 +1518,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/survivalpixelio_48267.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1528,7 +1528,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/among-us-arcade_48522.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1538,7 +1538,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/choo-choo-charles_48467.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1548,7 +1548,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/aquapark-balls-party_48449.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1558,7 +1558,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bubble-eyes_48424.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1568,7 +1568,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/face-punchio_48365.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1578,7 +1578,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cameraman-plunge_48105.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1588,7 +1588,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/play-in-mall_48060.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1598,7 +1598,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/domino-online-multiplayer_65767.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1608,7 +1608,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ludo-king-offline-ludo-game_65691.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1618,7 +1618,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/santa-giftbox-2-player_60541.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1628,7 +1628,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tic-tak-to_64322.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1638,7 +1638,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-noob-vs-baby-obby-horse_63287.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1648,7 +1648,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/1-2-3-4-player-tank-game-2d_63010.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1658,7 +1658,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/pixcade-2-player-escape_62293.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1668,7 +1668,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-huggy-party-duo_62489.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1678,7 +1678,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/squid-obby-game-2player_61370.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1688,7 +1688,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mcbros-pixelcraft_62298.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1698,7 +1698,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/combo-snake_61380.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1708,7 +1708,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/duo-skibidi-2player_61159.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1718,7 +1718,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/two-player-stick-steve-and-alex_61171.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1728,7 +1728,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sweet-dolls-fashion-princess_59344.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1738,7 +1738,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/minesweeper-duel_60313.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1748,7 +1748,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-noob-vs-heroman-2-player_60223.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1758,7 +1758,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/grench-vs-santa_60362.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1768,7 +1768,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/2-player-online-chess_59302.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1778,7 +1778,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/obby-skate-forever-parkour_57287.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1788,7 +1788,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/skateboard-obby-2-player_57199.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1798,7 +1798,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/redpool-skyblock-2-player_57445.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1808,7 +1808,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/blaze-ball-showdown_57015.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1818,7 +1818,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/noob-vs-pro-horsecraft_57286.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1828,7 +1828,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/heaven-challenge-2-player_57053.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1838,7 +1838,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/obby-and-noob-barry-prison_54890.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1848,7 +1848,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bighead_66467.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1858,7 +1858,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cook-it-3d_66022.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1868,7 +1868,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/italian-brainrot-3d-puzzle_65846.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1878,7 +1878,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/astra-runner-3d_65850.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1888,7 +1888,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/velocity-puck_63811.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1898,7 +1898,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/math-landing-basic-operations_64485.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1908,7 +1908,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/snake-color-challenge_61990.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1918,7 +1918,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/greedy-snake-brain-hole-explosion_61365.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1928,7 +1928,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/monster-game_62141.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1938,7 +1938,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/garten-of-banban-huggy-escape_61903.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1948,7 +1948,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/horror-city-minecraft-survive_60946.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1958,7 +1958,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-3d-shooter_60539.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1968,7 +1968,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/roblox-obbi-only-up_60232.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1978,7 +1978,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/slenderman-lost-at-school_59900.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1988,7 +1988,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/chicken-crosser_59838.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1998,7 +1998,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/dino-simulator-city-attack_59391.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2008,7 +2008,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/zombie-survival-escape-usa_59125.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2018,7 +2018,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/3d-golf-adventure_58484.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2028,7 +2028,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/army-truck-simulator-2024_58442.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2038,7 +2038,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/american-block-sniper-survival-online_57624.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2048,7 +2048,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/warfare-area-3_57608.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2058,7 +2058,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ragdoll-rush-3d_57127.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2068,7 +2068,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/noob-city-the-gangster_57105.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2078,7 +2078,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/save-water-race_56913.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2088,7 +2088,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/guard-the-island_44561.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2098,7 +2098,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/chicken-jockey-hidden-lava-chicken-2_66823.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2108,7 +2108,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/quiz-find-the-italian-brainrot-letters_66290.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2118,7 +2118,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tomb-escaper_66948.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2128,7 +2128,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/chicken-jockey-tung-tung-sahur-fight_66888.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2138,7 +2138,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/hangertheguy_66613.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2148,7 +2148,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/boots-n-bounds_65805.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2158,7 +2158,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/redball-avengers_66404.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2168,7 +2168,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/brainrot-rescue_66136.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2178,7 +2178,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/blade-n-vines_65185.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2188,7 +2188,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/minecraft-lava-chicken-2_66343.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2198,7 +2198,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/commando-shooting_66082.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2208,7 +2208,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/brainrot-sahuuur_66160.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2218,7 +2218,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/squareking-of-summer_65624.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2228,7 +2228,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/repo-and-repo_65282.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2238,7 +2238,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/drago-sky-quest_65266.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2248,7 +2248,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gravity-zero_64979.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2258,7 +2258,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/easter-deer_64711.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2268,7 +2268,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/red-escape_60795.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2278,7 +2278,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/missile-attack_64072.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2287,8 +2287,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://roblox-games-unblocked.github.io/play/shape-whiz_63978.html</loc>
+    <lastmod>2025-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://img.gamemonetize.com/0ty9l8uw24x6y46wxln69fzdxcxszlw5/512x384.jpg</image:loc>
+      <image:title>Shape Whiz</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://roblox-games-unblocked.github.io/play/little-dentist-for-kid_67071.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2298,7 +2308,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/shell-swap-pro_67015.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2308,7 +2318,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bitcoin-crypto-tycoon_65124.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2318,7 +2328,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/icicle-run_65234.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2328,7 +2338,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/echoes-of-bushido_65806.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2338,7 +2348,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/brainrot-clicker-game_66080.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2348,7 +2358,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/bunny-jumpy_66028.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2358,7 +2368,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/slicey-merge_65480.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2368,7 +2378,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/crypto-detective-finder_65137.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2378,7 +2388,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/orbit-loop-revolution_65089.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2388,7 +2398,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/astro-adventure-tour-max_54474.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2398,7 +2408,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tincha-junior_64291.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2408,7 +2418,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/shapes-using-dots_56794.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2418,7 +2428,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/times-got-color_56766.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2428,7 +2438,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/identify-quick_56764.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2438,7 +2448,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/the-best-warrior_64311.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2448,7 +2458,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/color-hoop-sort-puzzle_62161.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2458,7 +2468,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/memory-match-lite_63943.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2468,7 +2478,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/kingdom-puzzles_63945.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2478,7 +2488,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ben-10-tappy-plane_63673.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2488,7 +2498,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gamer-case-simulator_63314.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2498,7 +2508,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/flappy-sprunki_63086.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2508,7 +2518,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/qolor-quiz-game_62185.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2518,7 +2528,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-retake-beat-box_62342.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2528,7 +2538,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/christmas-cooking-chef_65227.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2538,7 +2548,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/rainbow-ice-cream-maker_65197.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2548,7 +2558,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-taylor-thanksgiving-cooking_61319.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2558,7 +2568,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/idle-restaurant-tale_60800.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2568,7 +2578,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-panda-drink-bar_60875.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2578,7 +2588,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/my-sushi-story_59228.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2588,7 +2598,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/hippo-japanese-cooking-party_58703.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2598,7 +2608,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cookie-clicker-clicker-games_59182.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2608,7 +2618,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-panda-ice-cream-truck_56684.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2618,7 +2628,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/little-panda-coffee-shop_57916.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2628,7 +2638,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cake-maker-kids-cooking_57380.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2638,7 +2648,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/kids-food-cooking_56667.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2648,7 +2658,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/princess-cake-sweet-desserts_56405.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2658,7 +2668,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/little-panda-s-chinese-recipes-2_55961.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2668,7 +2678,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/unicorn-cake-maker_55404.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2678,7 +2688,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-taylor-back-to-school_54780.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2688,7 +2698,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mermaid-glitter-cake-maker_55191.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2698,7 +2708,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/little-panda-cake-shop_55023.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2708,7 +2718,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/pizza-maker-cooking-2_54261.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2718,7 +2728,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/peanut-butter-jelly-sandwich_54417.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2728,7 +2738,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/baby-panda-forest-recipes_54280.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2738,7 +2748,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/idle-restaurant-tycoon_53337.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2748,7 +2758,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tanghulu-master-candy-asmr_52945.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2758,7 +2768,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/street-food-deep-fried_52912.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2768,7 +2778,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/karas-cafeteria_47066.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2778,7 +2788,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/christmas-house-cake-recipe_51396.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2788,7 +2798,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/emma-surprise-valentine-dessert_52276.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2798,7 +2808,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sweet-cotton-candy-maker_46786.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2808,7 +2818,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/kids-happy-kitchen-game_44345.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2818,7 +2828,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/doodle-football_63252.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2828,7 +2838,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/lollipop-escape-mania_64676.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2838,7 +2848,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gluttonous-bean_65119.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2848,7 +2858,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/hair-salon-and-dress-up-girl_65618.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2858,7 +2868,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/relaxing-sudoku-and-futushiki_67167.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2868,7 +2878,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tung-tung-tung-sahur-who-is_66901.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2878,7 +2888,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/italian-brainrot-tung-tung-sahur-anomaly_67010.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2887,18 +2897,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://roblox-games-unblocked.github.io/play/shoguns-reckoning_65800.html</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://img.gamemonetize.com/6nxxtkme0mqj98yxn07qgptlpquxfrhp/512x384.jpg</image:loc>
-      <image:title>Shoguns Reckoning</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://roblox-games-unblocked.github.io/play/qolor-2048_62378.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2908,7 +2908,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gomoku-five-stones-in-a-row_53224.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2918,7 +2918,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/giveaway-checkers_58246.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2928,7 +2928,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/quiz-goose-math_58301.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2938,7 +2938,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/billiard-champion_41742.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2948,7 +2948,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/snowball-speed_55868.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2958,7 +2958,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/dino-war-birds_53265.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2968,7 +2968,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ballon-race-3d_55224.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2978,7 +2978,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/math-challenge-online_55014.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2988,7 +2988,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ludo-maximus_52903.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2998,7 +2998,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/racing-gun_53602.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3008,7 +3008,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/masked-special-forces_52547.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3018,7 +3018,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/madalin-stunt-cars-pro_52527.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3028,7 +3028,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/battle-city-online_51892.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3038,7 +3038,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/the-racing-crew_51688.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3048,7 +3048,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/multiplayer-car-crash-simulator_49661.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3058,7 +3058,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/star-of-warfare_43297.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3068,7 +3068,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/fall-heroes-guys-3d_47235.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3078,7 +3078,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/elite-forces_46544.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3088,7 +3088,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tankroyaleio_9417.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3098,7 +3098,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/rumble-stars-football-online-soccer-game_38059.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3108,7 +3108,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/pendy-crush-puzzle-match_43647.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3118,7 +3118,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/command-strike-fps-2_43409.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3128,7 +3128,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/girls-summer-dress-up_42698.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3138,7 +3138,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/italian-brainrot-spot-the-differences_66841.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3148,7 +3148,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mahjong-tralalero-tralala_66808.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3158,7 +3158,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/line-shape-puzzle_52830.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3168,7 +3168,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-block-challenge_66423.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3178,7 +3178,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/onet-mahjong-connect_66628.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3188,7 +3188,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cosmic-connector_65820.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3197,18 +3197,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://roblox-games-unblocked.github.io/play/italian-brainrot-candy_66241.html</loc>
-    <lastmod>2025-06-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://img.gamemonetize.com/2cn100spis7wdmmk99cwt4gpgjjmddj6/512x384.jpg</image:loc>
-      <image:title>Italian Brainrot Candy</image:title>
-    </image:image>
-  </url>
-  <url>
     <loc>https://roblox-games-unblocked.github.io/play/boat-attack_65053.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3218,7 +3208,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/highway-racer-3d_65204.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3228,7 +3218,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/2d-nitro-race_65490.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3238,7 +3228,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/truck-simulator-extreme-park_64906.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3248,7 +3238,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/delivery-now_64444.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3258,7 +3248,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/monster-truck-beginning_64350.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3268,7 +3258,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/drink-drive_63987.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3278,7 +3268,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/parking-frenzy_64319.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3288,7 +3278,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/space-drift_64176.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3298,7 +3288,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/truck-simulator-arcade-championship_64166.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3308,7 +3298,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gt-formula-championship_64051.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3318,7 +3308,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/royal-prince-tailor-master-2025_62403.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3328,7 +3318,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gt-burnout-parking-simulator_62907.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3338,7 +3328,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/delivery-chaos_62292.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3348,7 +3338,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/spra-racing-cars-speed_62177.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3358,7 +3348,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/oiia-oiia-cat-drift-master_62062.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3368,7 +3358,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/real-gt-racing-simulator_62008.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3378,7 +3368,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/chipi-chipi-chapa-chapa-cat-highway-racing_61752.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3388,7 +3378,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/marathon-race_61604.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3398,7 +3388,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/realfx-driving-simulator_60923.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3408,7 +3398,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-stunt-driving-simulator_60447.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3418,7 +3408,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/real-driving-simulator_58163.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3428,7 +3418,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/rushy-racing_59667.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3438,7 +3428,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/park-the-taxi-3_59549.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3448,7 +3438,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/gt-racing_58888.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3458,7 +3448,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/santa-racing_58820.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3468,7 +3458,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/crash-em-zombies_58180.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3478,7 +3468,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/football-manager-simulator_64751.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3488,7 +3478,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tiny-billiard_65479.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3498,7 +3488,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/basketball-school_64418.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3508,7 +3498,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/basketball-arcade_64329.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3518,7 +3508,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-tennis_61911.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3528,7 +3518,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-vs-pirates_61594.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3538,7 +3528,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/xmas-plinkio_59703.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3548,7 +3538,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/soccer-clicker-game_59317.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3558,7 +3548,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/cartoon-football_16151.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3568,7 +3558,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mini-tennis_58502.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3578,7 +3568,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mini-goalie_58517.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3588,7 +3578,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/basketball-street_58243.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3598,7 +3588,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/crab-penalty_57659.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3608,7 +3598,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/grid-drifter_57594.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3618,7 +3608,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/math-driving-test_57534.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3628,7 +3618,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/mini-boxing_57482.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3638,7 +3628,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/frisbee-3d_55747.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3648,7 +3638,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/turbo-car-track_55643.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3658,7 +3648,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/blocks-vs-pirates_54956.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3668,7 +3658,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/ski-it_54525.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3678,7 +3668,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sake-hockey_54324.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3688,7 +3678,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/king-of-sumo_54294.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3698,7 +3688,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/kingdomsrise_65065.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3708,7 +3698,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/sprunki-master_60942.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3718,7 +3708,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/tall-boss-run_60341.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3728,7 +3718,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/santa-stick_59119.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3738,7 +3728,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stick-archer-champion_58065.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3748,7 +3738,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-vs-zombies-minecraft_55958.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3758,7 +3748,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/city-runio_55590.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3768,7 +3758,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/wood-man-cutter_55692.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3778,7 +3768,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/desert-jump_54747.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3788,7 +3778,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/pop-it-3d-fidget-toy-maker_54709.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3798,7 +3788,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/crazy-3_54577.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3808,7 +3798,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/my-farm-empire_50007.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3818,7 +3808,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/crowd-stack-race-3d_20654.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3828,7 +3818,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/parkour-skyblock_46963.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3838,7 +3828,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-rope-heroes_46708.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3848,7 +3838,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/castle-blaster-2d-mobile_44315.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3858,7 +3848,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-brothers-nether-parkour_45742.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3868,7 +3858,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/free-rider-hd_38043.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3878,7 +3868,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-picker-master_45149.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3888,7 +3878,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/electric-man_43375.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3898,7 +3888,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stick-hero-mighty-tower-wars_43895.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3908,7 +3898,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-wick_42798.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3918,7 +3908,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/fruits-ninja-hero_42679.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3928,7 +3918,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stick-defenders-merge-game_43084.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3938,7 +3928,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stick-defenders_28799.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3948,7 +3938,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/stickman-bullets-ragdoll_41779.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3958,7 +3948,7 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/play/crazy-stickman-escape_41635.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -3968,19 +3958,19 @@
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/privacy-policy.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/terms-of-use.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://roblox-games-unblocked.github.io/about.html</loc>
-    <lastmod>2025-06-29</lastmod>
+    <lastmod>2025-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
